@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+.dh {
+    font-size: 150%;
+    /*color: #FF7A00;*/
+    background: linear-gradient(to right, #FF7A00, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav_basket {
+    width: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li .sl {
+    display: block;
+    color: #FF7A00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .sl2 {
+    font-family: SEGOE SCRIPT;
+    display: block;
+    text-decoration: none;
+}
+
+li .sl3 {
+    color: #939393;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .sl:hover:not(.active) {
+    background-color: #FF7A00;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn_nav {
+    padding: 10px;
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FF7A00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}

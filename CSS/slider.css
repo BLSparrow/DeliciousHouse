@@ -1,0 +1,137 @@
+/* .wrapper {
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    border: 4px solid gray;
+    position: relative;
+}
+
+img {
+    width: 800px;
+    height: 500px;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider__item {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 2s;
+}
+
+.slider .hide {
+    opacity: 0;
+} */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper .slide {
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+}
+
+.wrapper .slide.active {
+    display: flex;
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.wrapper .controls .prev,
+.wrapper .controls .next {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    color: #ffffff;
+    background-color: #FF5722;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.wrapper .controls .prev:hover,
+.wrapper .controls .next:hover {
+    background-color: #000000;
+}
+
+.wrapper .controls .prev {
+    left: 0;
+}
+
+.wrapper .controls .next {
+    right: 0;
+}
+
+.wrapper .indicator {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.wrapper .indicator div {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #FF5722;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 3px;
+}
+
+.wrapper .indicator div.active {
+    background-color: #000;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .controls {
+        display: none;
+    }
+}
