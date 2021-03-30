@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 25 2021 г., 13:53
+-- Время создания: Мар 27 2021 г., 11:46
 -- Версия сервера: 10.3.22-MariaDB
 -- Версия PHP: 7.4.5
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `db_delicioushome`
+-- База данных: `db_delicioushouse`
 --
 
 -- --------------------------------------------------------
@@ -54,7 +54,8 @@ CREATE TABLE `categories` (
 
 CREATE TABLE `countrys` (
   `id_country` int(11) NOT NULL,
-  `country` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL
+  `country` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image_country` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------

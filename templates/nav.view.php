@@ -2,7 +2,7 @@
     <ul>
         <li><a class="sl2" href="/"><img class="nav_basket" src="/IMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
         </li>
-        <li><a class="sl3" href="/">войти</a></li>
+        <li><a class="sl3" href="/auth"><?= $user ? 'Выйти' : 'Войти' ?></a></li>
     </ul>
     <ul>
         <li>
