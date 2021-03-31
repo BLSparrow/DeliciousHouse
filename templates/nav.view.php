@@ -22,7 +22,7 @@
         <li><a class="sl" href="/">Акции и скидки</a></li>
         <li><a class="sl" href="/">О магазине</a></li>
         <li><a class="sl" href="/">Контакты</a></li>
-        <li style="float: right"><img class="nav_basket" src="/IMG/корзина.png" alt="img"></li>
+        <li style = "float: right"><img class="nav_basket" src="/IMG/корзина.png" alt="img"></li>
     </ul>
 </nav>
 

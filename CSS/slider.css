@@ -41,7 +41,7 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
+    height: 60vh;
     overflow: hidden;
     position: relative;
 }
@@ -52,7 +52,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -111,6 +111,7 @@ body {
     bottom: 30px;
     z-index: 2;
     transform: translateX(-50%);
+	cursor: pointer;
 }
 
 .wrapper .indicator div {
@@ -123,6 +124,7 @@ body {
     text-align: center;
     line-height: 25px;
     margin: 0 3px;
+	font-size: 70%;
 }
 
 .wrapper .indicator div.active {

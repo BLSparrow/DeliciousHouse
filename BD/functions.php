@@ -21,17 +21,16 @@ function loadImg($maxFileSize, $validFileTypes, $uploadPath, $nameElem): array
             $type = finfo_file($file_info, $file["tmp_name"]);
 //            Формируемновое имя файла
             $name = pathinfo($file['name'], PATHINFO_FILENAME) . '_' . time();
-            $ext = pathinfo($file['name'], PATHINFO_EXTENSION);
-            $newName = "$name.$ext";
+            $text = pathinfo($file['name'], PATHINFO_EXTENSION);
+            $newName = "$name.$text";
             finfo_close($file_info);
-
             if (in_array($type, $validFileTypes)) {
                 //Если расширение файла соответствует допустимому, то
                 if (!move_uploaded_file($file["tmp_name"], $uploadPath . $newName)) {
                     //Выдать ошибку, если не удалось переместить изображение
                     $error = "Не удалось переместить изображение...";
                 }
-            } else {
+            }else {
                 //Если расширение файла не соответствует допустимому
                 $error = "Расширение файла должно быть таким: jpg, jpeg или png...";
             }

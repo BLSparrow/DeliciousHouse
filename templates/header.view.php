@@ -8,7 +8,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="/IMG/logo.png">
     <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="stylesheet" href="/CSS/slider.css">
-    <link rel="stylesheet" href="/CSS/navAdmin.css">
     <link rel="stylesheet" href="/CSS/nav.css">
     <title>DeliciousHouse</title>
 </head>

@@ -46,6 +46,7 @@ li .sl2 {
 }
 
 li .sl3 {
+	float: right;
     color: #939393;
     display: block;
     padding: 14px 16px;
@@ -64,11 +65,12 @@ li .sl:hover:not(.active) {
     padding: 10px;
     font-size: 100%;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #FF7A00;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     outline: none;
     color: white;
+	padding: 14px 16px;
     text-decoration: none;
 }
 
