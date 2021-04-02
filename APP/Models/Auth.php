@@ -49,6 +49,12 @@ class Auth
 
     }
 
+    public function getAllUsers()
+    {
+        $stmt = $this->pdo->query('SELECT * FROM users ORDER BY id ');
+        return $stmt->fetchAll();
+    }
+
     public function find($id)
     {
         $stmt = $this->pdo->prepare('SELECT * FROM users WHERE id=:id');

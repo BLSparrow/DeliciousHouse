@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li><a class="sl2" href="/"><img class="nav_basket" src="/IMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
+        <li><a class="sl2" href="/"><img class="nav_basket" src="/startIMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
         </li>
         <li><a class="sl3" href="/auth"><?= $user ? 'Выйти' : 'Войти' ?></a></li>
     </ul>
@@ -22,14 +22,14 @@
         <li><a class="sl" href="/">Акции и скидки</a></li>
         <li><a class="sl" href="/">О магазине</a></li>
         <li><a class="sl" href="/">Контакты</a></li>
-        <li style = "float: right"><img class="nav_basket" src="/IMG/корзина.png" alt="img"></li>
+        <li style = "float: right"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></li>
     </ul>
 </nav>
 
 
 <nav class="sidebar">
     <div class="text d-flex p-2">
-        <a href="#tel-modal"> Меню Сайта</a>
+        <a href="#tel-modal">Категории товаров</a>
         <div id="nav-icon3" class="pushmenu opened">
             <span></span>
             <span></span>
@@ -39,10 +39,9 @@
     </div>
     <div class="menu-main-menu-container">
         <ul id="menu-main-menu">
-            <li class="current-menu-item"><a href="#">Главная</a></li>
-            <li class="menu-parent-item"><a href="#">Услуги</a></li>
-            <li><a href="#">Клиентам</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href=""><img style="width: 50px;" src="/startIMG/new.png" alt="img">Новинки</a></li>
+            <li><a href=""><img style="width: 50px;" src="/startIMG/apple.jpg" alt="img">Низкоколорийные</a></li>
+            <li><a href=""><img style="width: 50px;" src="/startIMG/пончик.jpg" alt="img">Пончики</a></li>
         </ul>
     </div>
 </nav>

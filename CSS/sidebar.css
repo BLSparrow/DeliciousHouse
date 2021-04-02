@@ -18,7 +18,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #90b5cc;
+    background: #FF7A00;
     border-radius: 3px;
     opacity: 1;
     left: 0;
@@ -33,7 +33,7 @@
 }
 
 #nav-icon3 span:nth-child(1) {
-    top: 0px;
+    top: 0;
 }
 
 #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
@@ -46,7 +46,7 @@
 
 #nav-icon3.open span:nth-child(1), #nav-icon3.opened span:nth-child(1) {
     top: 12px;
-    width: 0%;
+    width: 0;
     left: 50%;
 }
 
@@ -66,12 +66,12 @@
 
 #nav-icon3.open span:nth-child(4), #nav-icon3.opened span:nth-child(4) {
     top: 12px;
-    width: 0%;
+    width: 0;
     left: 50%;
 }
 
 .sidebar #nav-icon3 span {
-    background: #fff;
+    background: #f4f4f4;
 }
 
 body.sidebar-opened {
@@ -104,7 +104,7 @@ body.sidebar-opened {
     height: 100%;
     right: -300px;
     top: 0;
-    background: #fff;
+    background: #f4f4f4;
     transition: right 0.4s ease;
     overflow: auto;
 }
@@ -116,12 +116,12 @@ body.sidebar-opened {
 }
 
 .sidebar .text {
-    color: white;
+    color: #f4f4f4;
     font-size: 18px;
     font-weight: 600;
     line-height: inherit;
     text-align: center;
-    background: #90b5cc;
+    background: #FF7A00;
     letter-spacing: 1px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -136,11 +136,11 @@ body.sidebar-opened {
 }
 
 .sidebar .text a {
-    color: white;
+    color: #f4f4f4;
 }
 
 .sidebar.show {
-    right: 0px;
+    right: 0;
 }
 
 .sidebar ul {
@@ -154,7 +154,7 @@ body.sidebar-opened {
 
 .sidebar ul li {
     line-height: 60px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #f4f4f4;
     margin: 0;
 }
 
@@ -172,19 +172,19 @@ body.sidebar-opened {
     font-weight: 500;
     display: block;
     width: 100%;
-    border-left: 3px solid #eee;
+    border-left: 3px solid #f4f4f4;
 }
 
 .sidebar ul li.current-menu-item a {
-    color: #90b5cc;
-    background: #F5F5F5;
-    border-left-color: #90b5cc;
+    color: #FF7A00;
+    background: #f4f4f4;
+    border-left-color: #FF7A00;
 }
 
 .sidebar ul li a:hover {
     cursor: pointer;
     background: #F5F5F5;
-    border-left-color: #2196F3;
+    border-left-color: #FF7A00;
 }
 
 .sidebar ul ul {

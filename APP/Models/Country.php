@@ -27,19 +27,19 @@ class Country
 
     public function getAllCountry()
     {
-        $stmt = $this->pdo->query('SELECT * FROM categories ORDER BY id ');
+        $stmt = $this->pdo->query('SELECT * FROM countries ORDER BY id ');
         return $stmt->fetchAll();
     }
 
     public function deleteCountry($id)
     {
-        $stmt = $this->pdo->prepare('DELETE FROM categories WHERE id=:id');
+        $stmt = $this->pdo->prepare('DELETE FROM countries WHERE id=:id');
         $stmt->execute(['id' => $id]);
     }
 
     public function getOneCountry($id)
     {
-        $stmt = $this->pdo->prepare('SELECT * FROM categories WHERE id=:id');
+        $stmt = $this->pdo->prepare('SELECT * FROM countries WHERE id=:id');
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }

@@ -21,10 +21,9 @@ if (isset($_POST['submit'])) {
     if (empty($error)) {
         $_SESSION['msg'] = 'Файл успешно создан';
         $_SESSION['alert'] = 'alert-success';
-        $data['image_product'] = $fileName;
-
+        $data['image'] = $fileName;
         $dataProd->addProduct($data);
-        header('Location:/categories/show.php');
+        header('Location:/products/index.php');
     } else {
         $_SESSION['msg'] = $error;
         $_SESSION['alert'] = 'alert-danger';

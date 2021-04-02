@@ -36,7 +36,7 @@ class Product
     public function addProduct($data)
     {
         $stmt = $this->pdo->prepare('INSERT INTO products(category_id, country_id, name, description, image, numberOfServings, weight, price)
-                VALUES (:category_id, :country_id, :name, :description, :numberOfServings, :weight, :price)');
+                VALUES (:category_id, :country_id, :name, :description, :image, :numberOfServings, :weight, :price)');
         $stmt->execute([
             'category_id' => $data['category_id'],
             'country_id' => $data['country_id'],
