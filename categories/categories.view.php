@@ -8,17 +8,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
                 </td>
                 <td style="padding: 25px"><?= $category->name ?></td>
                 <td style="padding: 25px"><?= $category->description ?></td>
-                <td><a href="/categories/new.php"><img style="width: 100px;" src="/startIMG/add.png" alt="img"></a></td>
+                <td><a class="subscribe" href="/categories/new.php">Добавить</a></td>
                 <td>
                     <form action="/categories/deleteCategory.php" method="post">
                         <input type="hidden" name="id" value="<?= $category->id ?>">
-                        <button class="btn" name="delete"
-                                onclick="return confirm('Вы действительно хотите удалить статью?');">
-                            <img style="width: 100px;" src="/startIMG/delete.png" alt="img">
+                        <button class="subscribe" name="delete"
+                                onclick="return confirm('Вы действительно хотите удалить категорию?');">
+                           Удалить
                         </button>
                     </form>
                 </td>
-                <td><a href="/categories/show.php?id=<?= $category->id?>">Подробнее</a></td>
+                <td><a class="subscribe" href="/categories/show.php?id=<?= $category->id ?>">Подробнее</a></td>
             </tr>
         <?php endforeach; ?>
     </table>

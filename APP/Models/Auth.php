@@ -55,6 +55,19 @@ class Auth
         return $stmt->fetchAll();
     }
 
+    public function deleteUser($id)
+    {
+        $stmt = $this->pdo->prepare('DELETE FROM users WHERE id=:id');
+        $stmt->execute(['id' => $id]);
+    }
+
+    public function getOneUser($id)
+    {
+        $stmt = $this->pdo->prepare('SELECT * FROM users WHERE id=:id');
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetch();
+    }
+
     public function find($id)
     {
         $stmt = $this->pdo->prepare('SELECT * FROM users WHERE id=:id');

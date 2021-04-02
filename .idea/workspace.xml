@@ -2,107 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Админ панель">
-      <change afterPath="$PROJECT_DIR$/register/users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0410ed64-bad0-4c47-a00b-22896c8b05fe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0410ed64-bad0-4c47-a00b-22896c8b05fe/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/deleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Country.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/sidebar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMG/apple_1617251524.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617266940.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617266993.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267887.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brit_1617267998.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake-dessert-food-sweet.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IMG/cake_1617267537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617267758.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617267789.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617267851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617267894.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268681.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268741.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268801.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268827.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268914.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268948.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617268996.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IMG/chocolate-food-desert-204.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/delete_1617267133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/delete_1617267177.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IMG/desert-pirozhnoe-zhele-shokolad.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IMG/franch_1617256337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/franch_1617268073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/franch_1617268237.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/franch_1617268340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/germ_1617252151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/ital_1617252392.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/klubnika-agody-desert-piroznoe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/new_1617249306.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/rus_1617249387.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/soc-ikon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262752.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262773.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262946.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263263.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263291.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263425.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263429.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263471.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263496.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263535.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263563.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263709.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265198.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265309.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265408.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265433.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266326.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266553.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266652.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266698.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266710.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266735.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266822.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266901.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Саку.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/корзина.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617256384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/new.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countries/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/new.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/insertProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/insertProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startIMG/Untitled.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startIMG/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startIMG/Диаграмма-Приц_Онлайн-магазин _BigSweetCake_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/categories.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/categories.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries/countries.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/countries.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/delete.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,12 +58,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/register" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\register" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\categories" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\countrys" />
     </key>
@@ -162,7 +80,7 @@
       <workItem from="1617247804932" duration="48000" />
       <workItem from="1617247864005" duration="21063000" />
       <workItem from="1617340399911" duration="2621000" />
-      <workItem from="1617343051523" duration="16803000" />
+      <workItem from="1617343051523" duration="19143000" />
     </task>
     <task id="LOCAL-00001" summary="Админ панель">
       <created>1617345762395</created>
@@ -171,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617345762395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Админ панель">
+      <created>1617360051282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617360051282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

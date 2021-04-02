@@ -7,13 +7,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
                 <td><img style="width: 100px;" src="../img/<?= $country->image ?>" alt="img" class="imgCards">
                 </td>
                 <td style="padding: 25px"><?= $country->country ?></td>
-                <td><a href="/countries/new.php"><img style="width: 100px;" src="/startIMG/add.png" alt="img"></a></td>
+                <td><a class="subscribe" href="/countries/new.php">Добавить</a></td>
                 <td>
                     <form action="/countries/deleteCountry.php" method="post">
                         <input type="hidden" name="id" value="<?= $country->id ?>">
-                        <button class="btn" name="delete"
-                                onclick="return confirm('Вы действительно хотите удалить статью?');">
-                            <img style="width: 100px;" src="/startIMG/delete.png" alt="img">
+                        <button class="subscribe" name="delete"
+                                onclick="return confirm('Вы действительно хотите удалить страну?');">
+                            Удалить
                         </button>
                     </form>
                 </td>

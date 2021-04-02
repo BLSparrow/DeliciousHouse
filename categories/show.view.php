@@ -9,11 +9,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
                 <td style="padding: 25px"><?= $category->name ?></td>
                 <td style="padding: 25px"><?= $category->description ?></td>
                 <td>
-                    <form action="/products/deleteProduct.php" method="post">
-                        <input type="hidden" name="id" value="<?= $post->id ?>">
-                        <button class="btn" name="delete" type="submit"
-                                onclick="return confirm('Вы действительно хотите удалить статью?');">
-                            <img style="width: 50px;" src="/startIMG/delete.png" alt="img">
+                    <form action="/categories/deleteCategory.php" method="post">
+                        <input type="hidden" name="id" value="<?= $category->id ?>">
+                        <button class="subscribe" name="delete" type="submit"
+                                onclick="return confirm('Вы действительно хотите удалить категорию?');">
+                            Удалить
                         </button>
                     </form>
                 </td>
