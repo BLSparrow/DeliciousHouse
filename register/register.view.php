@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
     <div class="cards">
         <div class="card">
             <h2>Добавить менеджера</h2>
@@ -6,8 +6,8 @@
 
                 <div>
                     <div style="display: none">
-                        <label for="id_user">Номер пользователя</label><br>
-                        <input type="text" id="id_user" name="id_user" value="<?= $_SESSION['id_user'] ?>">
+                        <label for="id">Номер пользователя</label><br>
+                        <input type="text" id="id" name="id" value="<?= $_SESSION['id_user'] ?>">
                     </div>
                 </div>
 
@@ -47,5 +47,3 @@
             </form>
         </div>
     </div>
-
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/footer.view.php'; ?>

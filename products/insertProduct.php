@@ -6,21 +6,25 @@ session_start();
 include $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
 
 if (isset($_POST['submit'])) {
-    $data['name_product'] = Validator::preProcessing($_POST['name_product']);
-    $data['description_product'] = Validator::preProcessing($_POST['description_product']);
-    $data['image_product'] = Validator::preProcessing($_POST['image_product']);
-    $data['numberOfServings'] = Validator::preProcessing($_POST['numberOfServings']);
-    $data['weight'] = Validator::preProcessing($_POST['weight']);
-    $data['price'] = Validator::preProcessing($_POST['price']);
+    $data['category_id'] = $_POST['category_id'];
+    $data['country_id'] = $_POST['country_id'];
+
+    $data['name'] = Validator::preProcessing($_POST['name']);
+    $data['description'] = Validator::preProcessing($_POST['description']);
+
+    $data['numberOfServings'] = $_POST['numberOfServings'];
+    $data['weight'] = $_POST['weight'];
+    $data['price'] = $_POST['price'];
 
     [$error, $fileName] = loadImg($maxFileSize, $validFileTypes, $uploadPath, 'image');
 
     if (empty($error)) {
         $_SESSION['msg'] = 'Файл успешно создан';
         $_SESSION['alert'] = 'alert-success';
-        $data['image'] = $fileName;
+        $data['image_product'] = $fileName;
+
         $dataProd->addProduct($data);
-        header('Location:/products');
+        header('Location:/categories/show.php');
     } else {
         $_SESSION['msg'] = $error;
         $_SESSION['alert'] = 'alert-danger';

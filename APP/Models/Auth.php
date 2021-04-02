@@ -32,15 +32,15 @@ class Auth
         return false;
     }
 
-    public function register($id_user, $login, $password, $role)
+    public function register($id, $login, $password, $role)
     {
         if ($this->auth($login, $password)) {
             return -1;
         }
-        $stmt = $this->pdo->prepare('INSERT INTO users (id_user, login, password, role) 
-            VALUES (:id_user, :login, :password, :role)');
+        $stmt = $this->pdo->prepare('INSERT INTO users (id, login, password, role) 
+            VALUES (:id, :login, :password, :role)');
         $stmt->execute([
-            'id_user' => $id_user,
+            'id' => $id,
             'login' => $login,
             'password' => password_hash($password, PASSWORD_DEFAULT),
             'role' => $role,
@@ -49,10 +49,10 @@ class Auth
 
     }
 
-    public function find($id_user)
+    public function find($id)
     {
-        $stmt = $this->pdo->prepare('SELECT * FROM users WHERE id_user=:id_user');
-        $stmt->execute(['id_user' => $id_user]);
+        $stmt = $this->pdo->prepare('SELECT * FROM users WHERE id=:id');
+        $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }
 }

@@ -1,22 +1,22 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
     <div class="card" style="margin: 50px auto; padding: 15px">
         <p><?= $_SESSION['msg'] ?? '' ?></p>
         <form action="insertCategory.php" method="post" enctype="multipart/form-data">
             <div>
-                <label for="name_category">Название категории</label><br>
-                <input type="text" id="name_category" name="name_category">
+                <label for="name">Название категории</label><br>
+                <input type="text" id="name" name="name">
             </div>
             <br>
 
             <div>
-                <label for="description_category">Описание категории</label><br>
-                <textarea name="description_category" id="description_category" rows="3"></textarea>
+                <label for="description">Описание категории</label><br>
+                <textarea name="description" id="description" rows="3"></textarea>
             </div>
             <br>
             <div>
-                <label for="image_category">Выберите файл-изображение</label>
+                <label for="image">Выберите файл-изображение</label>
                 <br>
-                <input class="btn" type="file" name="image_category" id="image_category">
+                <input class="btn" type="file" name="image" id="image">
             </div>
             <br>
             <img src="" alt="" id="loadImage" style="width: 100px;">
@@ -26,7 +26,7 @@
 
     <script>
         let loadImage = document.querySelector("#loadImage"),
-            image = document.querySelector("#image_category");
+            image = document.querySelector("#image");
 
         image.addEventListener("change", function (e) {
             loadImage.src = URL.createObjectURL(e.target.files[0]);
@@ -36,4 +36,3 @@
             }
         });
     </script>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/footer.view.php'; ?>

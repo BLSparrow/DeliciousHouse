@@ -5,12 +5,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php'; ?>
         <div class="cards">
             <?php foreach ($products as $product): ?>
                 <div class="card">
-                    <a href="/products/show.php?id=<?= $product->id_product ?>">
-                        <img src="../img/<?= $product->image_product ?>" alt="img" class="imgCards">
+                    <a href="/products/show.php?id=<?= $product->id ?>">
+                        <img src="../img/<?= $product->image ?>" alt="img" class="imgCards">
                     </a>
                     <div class="text">
-                        <h3><?= $product->name_product ?></h3>
-                        <p><?= $product->description_product ?></p>
+                        <h3><?= $product->name?></h3>
+                        <p><?= $product->description ?></p>
                         <span><?= $product->weight ?><?= $product->price ?><a href="/"><img src="/IMG/корзина.png" alt="img"></a></span>
                         <a href="/products/show.php?id=<?= $product->id ?>" class="btn">Подробнее</a>
                     </div>

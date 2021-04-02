@@ -4,8 +4,8 @@
         <p><?= $_SESSION['msg'] ?? '' ?></p>
         <form action="/categories/insertCategory.php" method="post" enctype="multipart/form-data">
             <div>
-                <label for="name_product">Название товара</label><br>
-                <input type="text" id="name_product" name="name_product">
+                <label for="name">Название товара</label><br>
+                <input type="text" id="name" name="name">
             </div>
             <br>
 
@@ -15,9 +15,9 @@
             </div>
             <br>
             <div>
-                <label for="image_product">Выберите файл-изображение</label>
+                <label for="image">Выберите файл-изображение</label>
                 <br>
-                <input class="btn" type="file" name="image_product" id="image_product">
+                <input class="btn" type="file" name="image" id="image">
             </div>
             <br>
             <img src="" alt="" id="loadImage" style="width: 100px;">
@@ -27,7 +27,7 @@
 
     <script>
         let loadImage = document.querySelector("#loadImage"),
-            image = document.querySelector("#image_product");
+            image = document.querySelector("#image");
 
         image.addEventListener("change", function (e) {
             loadImage.src = URL.createObjectURL(e.target.files[0]);

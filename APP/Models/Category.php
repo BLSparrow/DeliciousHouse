@@ -17,13 +17,32 @@ class Category
 
     public function addCategory($data)
     {
-        $stmt = $this->pdo->prepare('INSERT INTO categories(name_category, description_category, image_category)
-                VALUES (:name_category, :description_category, :image_category)');
+        $stmt = $this->pdo->prepare('INSERT INTO categories(name, description, image)
+                VALUES (:name, :description, :image)');
         $stmt->execute([
-            'name_category' => $data['name_category'],
-            'description_category' => $data['description_category'],
-            'image_category' => $data['image_category']
+            'name' => $data['name'],
+            'description' => $data['description'],
+            'image' => $data['image']
         ]);
         return $this->pdo->lastInsertId();
+    }
+
+    public function getAllCategories()
+    {
+        $stmt = $this->pdo->query('SELECT * FROM categories ORDER BY id ');
+        return $stmt->fetchAll();
+    }
+
+    public function deleteCategory($id)
+    {
+        $stmt = $this->pdo->prepare('DELETE FROM categories WHERE id=:id');
+        $stmt->execute(['id' => $id]);
+    }
+
+    public function getOneCategory($id)
+    {
+        $stmt = $this->pdo->prepare('SELECT * FROM categories WHERE id=:id');
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetch();
     }
 }

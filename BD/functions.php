@@ -59,7 +59,7 @@ function loadImg($maxFileSize, $validFileTypes, $uploadPath, $nameElem): array
 //    return $error;
 //}
 
-function deletePost($file): string
+function deleteImg($file): string
 {
     $error = "";
 

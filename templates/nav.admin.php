@@ -2,8 +2,8 @@
 <h2>Панель администратора</h2>
 
 <ul class="ul">
-    <li class="li"><a href="/register">Добавить менеджера</a></li>
-    <li class="li"><a href="/categories/new.php">Добавить категорию</a></li>
-    <li class="li"><a href="/countrys/new.php">Добавить страну</a></li>
+    <li class="li"><a href="/register">Менеджеры</a></li>
+    <li class="li"><a href="/categories/index.php">Категории</a></li>
+    <li class="li"><a href="/countries/index.php">Страны</a></li>
     <li class="li"><a href="/">About</a></li>
 </ul>

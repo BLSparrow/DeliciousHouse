@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/apple_1617251524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617266993.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267438.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/brit_1617267998.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617267537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617267758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617267789.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617267851.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617267894.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268649.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268681.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268741.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268948.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1617268996.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/delete_1617267133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/delete_1617267177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/franch_1617268073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/franch_1617268237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/franch_1617268340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/new_1617249306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262752.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617262946.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263291.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263425.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263471.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263496.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263535.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263563.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263700.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617263709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265363.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265433.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617265465.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266553.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266698.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266791.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266822.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266901.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Песочный пирог с творогом и малиновым вареньем_1617266907.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пончик_1617256384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/categories.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/deleteCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/show.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/countries.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/deleteCountry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/new.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Песочный пирог с творогом и малиновым вареньем.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BigSweetCake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeliciousHouse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5932bab3-61a2-4b4c-8b7e-f0faa4290e84.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5932bab3-61a2-4b4c-8b7e-f0faa4290e84/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/499917a5-47e5-4030-92c5-d931dd4cd47b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c75389db-34f5-43a4-9883-509028bf9800.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/499917a5-47e5-4030-92c5-d931dd4cd47b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c75389db-34f5-43a4-9883-509028bf9800/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/15021426495988e0b9350dc8.21593861.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/anypics.ru-79623.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/brit.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/brit_1617266940.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/franch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/franch_1617256337.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/germ.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/germ_1617252151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/ital_1617252392.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/rus.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/rus_1617249387.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/usa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/insertCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/insertCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countrys/insertCountry.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/insertCountry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countrys/new.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countrys/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/deleteProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/deleteProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/insertProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/insertProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qYDh8WXqHzEpC4bsTM9laMNQJT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\DeliciousHouse\categories" />
+      <recent name="C:\OpenServer\domains\DeliciousHouse\countrys" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="" />
+      <created>1617247785137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617247785137</updated>
+      <workItem from="1617247804932" duration="48000" />
+      <workItem from="1617247864005" duration="21063000" />
+      <workItem from="1617340399911" duration="2621000" />
+      <workItem from="1617343051523" duration="2673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
