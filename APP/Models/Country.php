@@ -43,4 +43,14 @@ class Country
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }
+
+    public function updateCountry($data)
+    {
+        $stmt = $this->pdo->prepare('UPDATE countries SET country = :country,image=:image WHERE id=:id');
+        $stmt->execute([
+            'id' => $data['id'],
+            'country' => $data['country'],
+            'image' => $data['image'],
+        ]);
+    }
 }

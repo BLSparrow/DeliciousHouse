@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Админ панель">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0410ed64-bad0-4c47-a00b-22896c8b05fe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0410ed64-bad0-4c47-a00b-22896c8b05fe/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register/deleteUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startIMG/fon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startIMG/logo.png" afterDir="false" />
+    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Админ панель 2.0">
+      <change afterPath="$PROJECT_DIR$/categories/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/edit.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/updateCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/edit.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries/updateCountry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/499917a5-47e5-4030-92c5-d931dd4cd47b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/499917a5-47e5-4030-92c5-d931dd4cd47b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple_1617251524.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/cake_1617267537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/chocolate-food-desert-204.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/desert-pirozhnoe-zhele-shokolad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/franch_1617256337.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/categories.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/categories.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/show.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/countries/countries.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/countries.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startIMG/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startIMG/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +62,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/register" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/countries" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\register" />
+      <recent name="C:\OpenServer\domains\DeliciousHouse\countries" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\categories" />
+      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\register" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\countrys" />
     </key>
   </component>
@@ -80,7 +85,8 @@
       <workItem from="1617247804932" duration="48000" />
       <workItem from="1617247864005" duration="21063000" />
       <workItem from="1617340399911" duration="2621000" />
-      <workItem from="1617343051523" duration="19143000" />
+      <workItem from="1617343051523" duration="19357000" />
+      <workItem from="1617420784099" duration="11658000" />
     </task>
     <task id="LOCAL-00001" summary="Админ панель">
       <created>1617345762395</created>
@@ -96,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617360051282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Админ панель 2.0">
+      <created>1617362442158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617362442158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Админ панель" />
-    <option name="LAST_COMMIT_MESSAGE" value="Админ панель" />
+    <MESSAGE value="Админ панель 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Админ панель 2.0" />
   </component>
 </project>

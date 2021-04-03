@@ -50,13 +50,4 @@ class Product
         return $this->pdo->lastInsertId();
     }
 
-    public function updateProduct($data)
-    {
-        $stmt = $this->pdo->prepare('UPDATE products SET  сountry_id=:сountry_id, name=:name, description=:description, image=:image, numberOfServings=:numberOfServings, weight=:weight, price=:price
-WHERE category_id=:category_id');
-        $stmt->execute([
-
-        ]);
-    }
-
 }

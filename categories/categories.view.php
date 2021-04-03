@@ -18,7 +18,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
                         </button>
                     </form>
                 </td>
-                <td><a class="subscribe" href="/categories/show.php?id=<?= $category->id ?>">Подробнее</a></td>
+                <td><a class="subscribe" href="/categories/show.php?id=<?= $category->id ?>">ДобавитьТовар</a></td>
+                <td><a class="subscribe" href="/categories/edit.php?id=<?= $category->id ?>">Редактирование</a></td>
             </tr>
         <?php endforeach; ?>
     </table>

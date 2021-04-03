@@ -1,7 +1,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="/startIMG/logo.png">
 <link rel="stylesheet" href="/CSS/navAdmin.css">
 <nav id="menuVertical">
-    <h1>Панель админестратора</h1><br>
+    <h1>Панель администратора</h1><br>
     <ul>
         <li><a href="#">Менеджер</a>
             <ul>
@@ -13,7 +13,12 @@
             <ul>
                 <li><a href="/categories/new.php">Добавить</a></li>
                 <li><a href="/categories/index.php">Посмотреть</a></li>
-                <li><a href="/products/index.php">Список товаров</a></li>
+                <li><a href="/products/index.php">Список всех товаров</a></li>
+                <li><a href="/products/index.php">Товары по категориям</a>
+                <ul>
+                    <li><a href="">Пончики</a></li>
+                </ul>
+                </li>
             </ul>
         </li>
         <li><a href="#">Страны</a>

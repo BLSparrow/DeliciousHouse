@@ -13,3 +13,4 @@
 </head>
 <body>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/nav.view.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.php"; ?>

@@ -45,4 +45,15 @@ class Category
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }
+
+    public function updateCategory($data)
+    {
+        $stmt = $this->pdo->prepare('UPDATE categories SET name = :name,description=:description,image=:image WHERE id=:id');
+        $stmt->execute([
+            'id' => $data['id'],
+            'name' => $data['name'],
+            'description' => $data['description'],
+            'image' => $data['image'],
+        ]);
+    }
 }

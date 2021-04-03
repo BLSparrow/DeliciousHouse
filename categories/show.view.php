@@ -24,34 +24,34 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
     </table>
 
 
-    <div class="card" style="margin: 50px auto; padding: 15px">
+    <div class="card">
         <h2>Добавить товар</h2>
         <p><?= $_SESSION['msg'] ?? '' ?></p>
         <form action="/products/insertProduct.php" method="post" enctype="multipart/form-data">
             <div>
                 <label for="name">Название товара</label><br>
-                <input type="text" id="name" name="name">
+                <input class="t" type="text" id="name" name="name">
             </div>
             <br>
 
 
             <div>
                 <label for="description">Описание товара</label><br>
-                <textarea name="description" id="description" rows="3"></textarea>
+                <textarea class="t" name="description" id="description" rows="3"></textarea>
             </div>
             <br>
 
 
-            <div>
+            <div style="display: none">
                 <label for="category_id">Категория</label><br>
-                <input type="text" id="category_id" name="category_id" value="<?= $category->id ?>">
+                <input class="t" type="text" id="category_id" name="category_id" value="<?= $category->id ?>">
             </div>
             <br>
 
 
             <div>
                 <label for="country_id">Страна</label><br>
-                <select name="country_id" id="country_id">
+                <select class="t" name="country_id" id="country_id">
                     <option value="" disabled selected>Выберите страну</option>
                     <?php foreach ($countries as $country): ?>
                         <option value="<?= $country->id ?>"><?= $country->country ?></option>
@@ -63,21 +63,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
 
             <div>
                 <label for="weight">Вес</label><br>
-                <input type="number" id="weight" name="weight">
+                <input class="t" type="number" id="weight" name="weight">
             </div>
             <br>
 
 
             <div>
                 <label for="numberOfServings">Количество порций</label><br>
-                <input type="number" id="numberOfServings" name="numberOfServings">
+                <input class="t" type="number" id="numberOfServings" name="numberOfServings">
             </div>
             <br>
 
 
             <div>
                 <label for="price">Цена</label><br>
-                <input type="number" id="price" name="price">
+                <input class="t" type="number" id="price" name="price">
             </div>
             <br>
 
@@ -85,11 +85,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
             <div>
                 <label for="image">Выберите файл-изображение</label>
                 <br>
-                <input class="btn" type="file" name="image" id="image">
+                <input class="subscribe" type="file" name="image" id="image">
             </div>
             <br>
             <img src="" alt="" id="loadImage" style="width: 100px;">
-            <button class="btn" type="submit" name="submit">Добавить</button>
+            <button class="subscribe" type="submit" name="submit">Добавить</button>
         </form>
     </div>
 

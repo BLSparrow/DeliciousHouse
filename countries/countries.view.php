@@ -17,6 +17,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
                         </button>
                     </form>
                 </td>
+                <td><a class="subscribe" href="/countries/edit.php?id=<?= $country->id ?>">Редактирование</a></td>
             </tr>
         <?php endforeach; ?>
     </table>

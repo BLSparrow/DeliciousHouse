@@ -25,24 +25,3 @@
         <li style = "float: right"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></li>
     </ul>
 </nav>
-
-
-<nav class="sidebar">
-    <div class="text d-flex p-2">
-        <a href="#tel-modal">Категории товаров</a>
-        <div id="nav-icon3" class="pushmenu opened">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <div class="menu-main-menu-container">
-        <ul id="menu-main-menu">
-            <li><a href=""><img style="width: 50px;" src="/startIMG/new.png" alt="img">Новинки</a></li>
-            <li><a href=""><img style="width: 50px;" src="/startIMG/apple.jpg" alt="img">Низкоколорийные</a></li>
-            <li><a href=""><img style="width: 50px;" src="/startIMG/пончик.jpg" alt="img">Пончики</a></li>
-        </ul>
-    </div>
-</nav>
-<div class="hidden-overley"></div>
