@@ -1,5 +1,6 @@
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/header.view.php"; ?>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/slider.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.php"; ?>
 <h1 style="text-align: center">Новинки</h1>
 
 
