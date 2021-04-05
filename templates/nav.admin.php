@@ -3,28 +3,28 @@
 <nav id="menuVertical">
     <h1>Панель администратора</h1><br>
     <ul>
-        <li><a href="#">Менеджер</a>
+        <li><a href="/register/users.php">Менеджер</a>
             <ul>
                 <li><a href="/register">Регестрация</a></li>
                 <li><a href="/register/users.php">Список</a></li>
             </ul>
         </li>
-        <li><a href="#">Категории</a>
+        <li><a href="/categories/index.php">Категории</a>
             <ul>
                 <li><a href="/categories/new.php">Добавить</a></li>
-                <li><a href="/categories/index.php">Посмотреть</a></li>
-                <li><a href="/products/index.php">Список всех товаров</a></li>
-                <li><a href="/products/index.php">Товары по категориям</a>
-                <ul>
-                    <li><a href="">Пончики</a></li>
-                </ul>
-                </li>
+                <li><a href="/categories/index.php">Посмотреть всё</a></li>
             </ul>
         </li>
-        <li><a href="#">Страны</a>
+        <li><a href="/products/index.php">Товары</a>
+            <ul>
+                <li><a href="/products/new.php">Добавить</a></li>
+                <li><a href="/products/index.php">Посмотреть всё</a></li>
+            </ul>
+        </li>
+        <li><a href="/countries/index.php">Страны</a>
             <ul>
                 <li><a href="/countries/new.php">Добавить</a></li>
-                <li><a href="/countries/index.php">Посмотреть</a></li>
+                <li><a href="/countries/index.php">Посмотреть всё</a></li>
             </ul>
         </li>
         <li><a href="/">Вернуться</a></li>

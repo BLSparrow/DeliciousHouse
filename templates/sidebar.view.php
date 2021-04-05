@@ -11,7 +11,7 @@
     <div class="menu-main-menu-container">
         <ul id="menu-main-menu">
             <?php foreach ($categories as $category): ?>
-            <li><a href=""><img style="width: 50px;" src="../IMG/<?= $category->image ?>" alt="img"><?= $category->name ?></a></li>
+                <li><a href=""><img style="width: 50px;" src="../IMG/<?= $category->image ?>" alt="img"><?= $category->name ?></a></li>
             <?php endforeach; ?>
         </ul>
     </div>
