@@ -16,13 +16,13 @@ if (isset($_POST["delete"])) {
         $_SESSION["msg"] = "Файл успешно удалён";
         $_SESSION['alert'] = 'alert-success';
         $dataProd->deleteProduct($id);
-        header("Location: /categories");
+        header("Location: /products");
 
     } else {
 
         $_SESSION["msg"] = $error;
         $_SESSION['alert'] = 'alert-danger';
-        header("Location: /categories/show.view.php");
+        header("Location: /products");
     }
 
 }

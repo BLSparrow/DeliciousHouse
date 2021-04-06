@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    font-size: 200%;
+    width: 80%;
+    background-color: #c5c5c5;
 }
 
 li img {
@@ -17,7 +18,8 @@ li img {
 }
 
 .nav_basket {
-    width: 10%;
+    width: 100px;
+
 }
 
 ul {
@@ -29,6 +31,7 @@ ul {
 
 li {
     float: left;
+    margin-right: 15px;
 }
 
 li .sl {
@@ -55,21 +58,22 @@ li .sl3 {
 li .sl:hover:not(.active) {
     background-color: #FF7A00;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     transition: 0.5s;
 }
 
 .btn_nav {
+    text-align: center;
+    justify-content: center;
     padding: 10px;
     font-size: 100%;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     outline: none;
     color: white;
-	padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -77,4 +81,8 @@ li .sl:hover:not(.active) {
     text-decoration: underline;
     cursor: pointer;
     transition: 0.5s;
+}
+nav{
+    margin-bottom: 25px;
+    background-color: #333333;
 }
