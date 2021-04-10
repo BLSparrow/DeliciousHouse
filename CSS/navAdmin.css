@@ -37,16 +37,6 @@ body {
     letter-spacing: 1px;
 }
 
-.card {
-    width: 300px;
-    margin-left: 35%;
-    margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.384);
-    padding: 5%;
-    border: 2px solid black;
-    border-radius: 25px;
-    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
-}
 
 .subscribe {
     background: #FF7A00;

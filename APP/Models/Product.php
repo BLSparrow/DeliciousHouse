@@ -19,6 +19,12 @@ class Product
         return $stmt->fetchAll();
     }
 
+    public function getFourProducts()
+    {
+        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC LIMIT 4');
+        return $stmt->fetchAll();
+    }
+
 
     public function deleteProduct($id)
     {

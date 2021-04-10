@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="stylesheet" href="/CSS/slider.css">
     <link rel="stylesheet" href="/CSS/nav.css">
+    <link rel="stylesheet" href="/CSS/products.css">
     <title class="dh">DeliciousHouse</title>
 </head>
 <body>
+<div class="global">
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/nav.view.php"; ?>

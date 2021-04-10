@@ -1,8 +1,16 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    background-image: url("/startIMG/Фон.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+}
+.global{
+    background-color: #f4f4f4;
     width: 80%;
-    background-color: #c5c5c5;
+    margin: 0 auto;
 }
 
 li img {
