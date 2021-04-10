@@ -1,7 +1,6 @@
 <?php
-
 namespace APP\Models;
-//session_start();
+
 
 class Validator
 {

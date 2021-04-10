@@ -1,7 +1,7 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
 <div class="main">
-    <table border="1">
+    <table class="card" border="1">
         <?php foreach ($categories as $category): ?>
             <tr>
                 <td><img style="width: 100px;" src="../img/<?= $category->image ?>" alt="img" class="imgCards">

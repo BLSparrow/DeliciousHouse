@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Админ панель и Категории на главной">
-      <change afterPath="$PROJECT_DIR$/APP/Models/ShowData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/edit.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/updateProduct.php" afterDir="false" />
+    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Удаление и редактирование товара">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пирог_1618028950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пироженое_1617731743.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/filterProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Validator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641460.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641392.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641460.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/печенье_1617731750.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641392.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/пончик_1617731736.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/пончик_1617733532.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/categories.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/categories.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries/countries.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/countries.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/deleteProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/deleteProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +97,8 @@
       <workItem from="1617420784099" duration="12498000" />
       <workItem from="1617638873199" duration="2409000" />
       <workItem from="1617641309477" duration="4893000" />
-      <workItem from="1617728762850" duration="6906000" />
+      <workItem from="1617728762850" duration="6948000" />
+      <workItem from="1618025348016" duration="11901000" />
     </task>
     <task id="LOCAL-00001" summary="Админ панель">
       <created>1617345762395</created>
@@ -139,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617646236520</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Удаление и редактирование товара">
+      <created>1617735942789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617735942789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +179,7 @@
     <MESSAGE value="Админ панель 2.0" />
     <MESSAGE value="Админ панель и Категории" />
     <MESSAGE value="Админ панель и Категории на главной" />
-    <option name="LAST_COMMIT_MESSAGE" value="Админ панель и Категории на главной" />
+    <MESSAGE value="Удаление и редактирование товара" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удаление и редактирование товара" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
-<table border="1">
+<table class="card" border="1">
     <tr>
         <th>Login</th>
         <th>Role</th>

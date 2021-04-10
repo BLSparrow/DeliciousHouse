@@ -15,7 +15,7 @@ class Product
 
     public function getAllProducts()
     {
-        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC ');
+        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC');
         return $stmt->fetchAll();
     }
 

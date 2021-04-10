@@ -82,7 +82,8 @@ li .sl:hover:not(.active) {
     cursor: pointer;
     transition: 0.5s;
 }
-nav{
+
+nav {
     margin-bottom: 25px;
     background-color: #333333;
 }

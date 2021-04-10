@@ -10,6 +10,7 @@ if(isset($_POST['submit'])){
     if($user){
         $_SESSION['user'] = json_encode($user, JSON_UNESCAPED_UNICODE);
         $_SESSION['auth'] = true;
+//        $_SESSION['role'] = $user->role;
         header('Location: /admin');
     }
     else{

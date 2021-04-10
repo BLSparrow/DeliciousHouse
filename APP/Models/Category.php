@@ -29,7 +29,7 @@ class Category
 
     public function getAllCategories()
     {
-        $stmt = $this->pdo->query('SELECT * FROM categories ORDER BY id ');
+        $stmt = $this->pdo->query('SELECT * FROM categories ORDER BY name ');
         return $stmt->fetchAll();
     }
 
@@ -55,5 +55,14 @@ class Category
             'description' => $data['description'],
             'image' => $data['image'],
         ]);
+    }
+
+    public function getProductsForCategory($id)
+    {
+        $stmt = $this->pdo->prepare('SELECT products.*, categories.name FROM products 
+                            inner join categories on products.category_id = categories.id
+                            WHERE categories.id=:id');
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetchAll();
     }
 }

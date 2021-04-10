@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 use App\BD\Connect;
 use App\Models\Product;
@@ -23,4 +24,8 @@ $dataProd = new Product(Connect::make(CONN));
 $dataAuth = new Auth(Connect::make(CONN));
 $dataCategory = new Category(Connect::make(CONN));
 $dataCountry = new Country(Connect::make(CONN));
+
+$categories = $dataCategory->getAllCategories();
+$products = $dataProd->getAllProducts();
+
 $dataValid = new Validator;
