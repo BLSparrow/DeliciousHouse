@@ -1,4 +1,4 @@
-<nav>
+<nav class="main-nav">
     <ul>
         <li><a class="sl2" href="/"><img class="nav_basket" src="/startIMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
         </li>

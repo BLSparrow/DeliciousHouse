@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Сортировка">
-      <change afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d71be973-30b2-4001-9a5e-754fd487e4be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d71be973-30b2-4001-9a5e-754fd487e4be/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Добавил фон">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641479.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641499.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617733532.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/slider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,8 +53,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,7 +87,9 @@
       <workItem from="1617641309477" duration="4893000" />
       <workItem from="1617728762850" duration="6948000" />
       <workItem from="1618025348016" duration="12183000" />
-      <workItem from="1618067496424" duration="1802000" />
+      <workItem from="1618067496424" duration="1948000" />
+      <workItem from="1618151894697" duration="3212000" />
+      <workItem from="1618157646528" duration="7992000" />
     </task>
     <task id="LOCAL-00001" summary="Админ панель">
       <created>1617345762395</created>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618037725538</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавил фон">
+      <created>1618070258375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618070258375</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +186,7 @@
     <MESSAGE value="Админ панель и Категории на главной" />
     <MESSAGE value="Удаление и редактирование товара" />
     <MESSAGE value="Сортировка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сортировка" />
+    <MESSAGE value="Добавил фон" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил фон" />
   </component>
 </project>

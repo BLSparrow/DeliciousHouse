@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+.divCopy {
+    padding: 15px;
+    border-left: 3px solid #FF7A00;
+}
+
+.divCopyText {
+    font-size: 125%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,11 +19,27 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
-.global{
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-top: 3px solid #FF7A00;
+    align-content: center;
+    align-items: center;
+}
+.logoFooter{
+}
+
+.global {
     background-color: #f4f4f4;
     width: 80%;
     margin: 0 auto;
+    flex: 1 0 auto;
 }
 
 li img {
@@ -18,16 +47,39 @@ li img {
 }
 
 .dh {
-    font-size: 150%;
+    font-size: 300%;
     /*color: #FF7A00;*/
     background: linear-gradient(to right, #FF7A00, red);
+    font-family: SEGOE SCRIPT;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dh2 {
+    font-size: 150%;
+    padding: 15px;
+    border-right: 3px solid #FF7A00;
+    /*color: #FF7A00;*/
+    background: linear-gradient(to right, #FF7A00, red);
+    font-family: SEGOE SCRIPT;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dh3 {
+    font-size: 100%;
+    /*color: #FF7A00;*/
+    background: linear-gradient(to right, #FF7A00, red);
+    font-family: SEGOE SCRIPT;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .nav_basket {
-    width: 100px;
-
+    width: 7em;
+}
+.nav_basketFooter {
+    width: 70px;
 }
 
 ul {
@@ -51,7 +103,6 @@ li .sl {
 }
 
 li .sl2 {
-    font-family: SEGOE SCRIPT;
     display: block;
     text-decoration: none;
 }
@@ -91,7 +142,11 @@ li .sl:hover:not(.active) {
     transition: 0.5s;
 }
 
-nav {
+nav.main-nav {
     margin-bottom: 25px;
     background-color: #333333;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }

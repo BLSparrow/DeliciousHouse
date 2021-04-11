@@ -19,9 +19,9 @@ class Product
         return $stmt->fetchAll();
     }
 
-    public function getFourProducts()
+    public function getFProducts()
     {
-        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC LIMIT 4');
+        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC LIMIT 3');
         return $stmt->fetchAll();
     }
 
