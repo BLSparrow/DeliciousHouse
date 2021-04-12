@@ -1,0 +1,52 @@
+.cardA {
+    margin-bottom: 20px;
+    margin-left: 50%;
+    border: 1px solid black;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background: #333333;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.cardA .imgBx,
+.cardA .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.cardA .imgBx {
+    top: 0;
+    left: 0;
+}
+.cardA:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.cardA .imgBx img {
+    width: 100%;
+}
+.cardA .details {
+    font-size: 100%;
+    background: #333333;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.cardA:hover .details {
+    top: 0;
+    left: 0;
+}
+.cardA .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.cardA .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}

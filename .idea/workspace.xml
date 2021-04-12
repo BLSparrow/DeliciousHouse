@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc73262-c586-4bf0-8d9a-6974dbf6cfca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162808.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162951.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212072.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212095.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212112.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212135.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/promotions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/акция1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/акция2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/aboutStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/promotionsAndDiscounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/ShowData.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/ShowData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/filterProduct.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sidebar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,44 +24,54 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1r3ICssGTLWqBz5RT093Pv4AGjM" />
+  <component name="ProjectId" id="1r4X5aWQqBeNqomH6C6LF9boXSG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebc73262-c586-4bf0-8d9a-6974dbf6cfca" name="Default Changelist" comment="" />
-      <created>1618198266155</created>
+      <changelist id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="" />
+      <created>1618236181321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618198266155</updated>
-      <workItem from="1618198277845" duration="23000" />
-      <workItem from="1618198321016" duration="17198000" />
+      <updated>1618236181321</updated>
+      <workItem from="1618236199171" duration="5246000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

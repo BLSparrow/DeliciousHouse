@@ -20,8 +20,8 @@
                 Каталог продукции
             </button>
         </li>
-        <li><a class="sl" href="/">Акции и скидки</a></li>
-        <li><a class="sl" href="/">О магазине</a></li>
+        <li><a class="sl" href="/templates/promotionsAndDiscounts.php">Акции и скидки</a></li>
+        <li><a class="sl" href="/templates/aboutStore.php">О магазине</a></li>
         <li><a class="sl" href="/">Контакты</a></li>
         <li><a href="#"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></a></li>
     </ul>
