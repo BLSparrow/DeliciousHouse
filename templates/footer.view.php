@@ -11,7 +11,7 @@
         защищены.
     </div>
     <div class="divCopy">
-        <img style="width: 200px;" src="/startIMG/soc-ikon.jpg" alt="img">
+        <img style="width: 150px;" src="/startIMG/soc-ikon.jpg" alt="img">
     </div>
 </footer>
 </div>

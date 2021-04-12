@@ -3,8 +3,9 @@
         <li><a class="sl2" href="/"><img class="nav_basket" src="/startIMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
         </li>
         <li><a class="sl3" href="/auth"><?= $user ? 'Выйти' : 'Войти' ?></a></li>
+        <li><a href="/admin/index.view.php" class="sl3"><?= $user->role ?></a></li>
     </ul>
-    <ul>
+    <ul class="ulMenu">
         <li>
             <button class="btn_nav pushmenu">
                 <svg id="nav-icon3" width="28" height="17" viewBox="0 0 28 17" fill="none"
@@ -22,6 +23,6 @@
         <li><a class="sl" href="/">Акции и скидки</a></li>
         <li><a class="sl" href="/">О магазине</a></li>
         <li><a class="sl" href="/">Контакты</a></li>
-        <li><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></li>
+        <li><a href="#"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></a></li>
     </ul>
 </nav>

@@ -21,7 +21,7 @@ class Product
 
     public function getFProducts()
     {
-        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id DESC LIMIT 3');
+        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id LIMIT 3');
         return $stmt->fetchAll();
     }
 

@@ -27,7 +27,5 @@ $dataCountry = new Country(Connect::make(CONN));
 
 $categories = $dataCategory->getAllCategories();
 $products = $dataProd->getFProducts();
-$id = $_POST['id'];
-$country = $dataCountry->getOneCountry($id);
 
 $dataValid = new Validator;

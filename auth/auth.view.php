@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php'; ?>
-    <div class="cards">
+    <div style="margin-bottom: 35%" class="cards">
         <div class="card">
             <h2>Войти в панель администратора</h2>
             <form action="login.php" method="post" style="padding: 10px">

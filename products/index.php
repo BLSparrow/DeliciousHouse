@@ -11,6 +11,13 @@ if (isset($_GET['searchButton'])) {
     $products = $dataCategory->getProductsForCategory($id);
     if(!$products) {
         $product = $dataProd->getAllProducts();
+        $_SESSION['msg'] = 'Товаров в такой категории нет!';
+        $_SESSION['alert'] = 'alert-danger';
+        $_SESSION['danger'] = 'dangerOn';
+    }else{
+        $_SESSION['msg'] = 'Вот ваши товары!!!';
+        $_SESSION['alert'] = 'alert-success';
+        $_SESSION['danger'] = 'dangerOff';
     }
 }
 

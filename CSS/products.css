@@ -1,6 +1,6 @@
 .cards {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
 }
@@ -8,6 +8,16 @@
 .card {
     margin-top: 30px;
     width: 300px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.384);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.cardShow {
+    margin-top: 30px;
+    width: 80%;
     margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.384);
     border: 2px solid black;
@@ -23,7 +33,12 @@
 }
 
 .imgBasket {
+    margin: 10px;
     width: 100px;
+    border: 2px solid #FF7A00;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    float: right;
 }
 
 .name {
@@ -31,7 +46,7 @@
 }
 
 .text {
-    padding: 1%;
+    padding: 5%;
 }
 
 .bold {
@@ -42,15 +57,24 @@
 .price {
     color: #FF7A00;
     font-weight: bold;
+    font-size: 150%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
 }
-.countInfo{
-    background-color: rgba(244,244,244,0.5);
+.description{
+    width: 90%;
+}
+
+.countInfo {
+    background-color: rgba(244, 244, 244, 0.5);
     position: absolute;
     bottom: 10px;
     width: 100%;
     padding: 5px;
 }
-.imgBlock{
+
+.imgBlock {
     position: relative;
     display: inline-block;
 }

@@ -9,9 +9,9 @@ if (isset($_POST['submit'])) {
     $login = Validator::preProcessing($_POST['login']);
     $password = Validator::preProcessing($_POST['password']);
     $role = Validator::preProcessing($_POST['role']);
-    if (Validator::validLength('Login', $login, 'login', 2) &
-        Validator::validLength('Password', $password, 'password') &
-        Validator::validLength('Role', $role, 'role')
+    if (Validator::validLength('login', $login, 'login', 2) &
+        Validator::validLength('password', $password, 'password') &
+        Validator::validLength('role', $role, 'role')
     ) {
         $id = $dataAuth->register($id, $login, $password, $role);
         if ($id == -1) {

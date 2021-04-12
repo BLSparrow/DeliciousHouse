@@ -8,7 +8,8 @@ html, body {
 }
 
 .divCopyText {
-    font-size: 125%;
+    width: 50%;
+    font-size: 120%;
 }
 
 body {
@@ -31,8 +32,14 @@ footer {
     border-top: 3px solid #FF7A00;
     align-content: center;
     align-items: center;
+    margin: 0 auto;
+    padding: 0;
 }
-.logoFooter{
+
+.logoFooter {
+    border-right: 3px solid #FF7A00;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .global {
@@ -56,9 +63,8 @@ li img {
 }
 
 .dh2 {
-    font-size: 150%;
+    font-size: 120%;
     padding: 15px;
-    border-right: 3px solid #FF7A00;
     /*color: #FF7A00;*/
     background: linear-gradient(to right, #FF7A00, red);
     font-family: SEGOE SCRIPT;
@@ -78,8 +84,9 @@ li img {
 .nav_basket {
     width: 7em;
 }
+
 .nav_basketFooter {
-    width: 70px;
+    width: 75px;
 }
 
 ul {
@@ -149,4 +156,9 @@ nav.main-nav {
     top: 0;
     left: 0;
     z-index: 100;
+}
+.ulMenu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }

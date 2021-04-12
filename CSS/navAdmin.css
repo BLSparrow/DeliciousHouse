@@ -139,3 +139,21 @@ body {
     background: #FF7A00;
     color: #f4f4f4;
 }
+
+table {
+    background-color: rgba(255, 255, 255, 0.71);
+}
+.alert-success{
+    display: none;
+}
+.alert-danger{
+    display: block;
+    color: #f4f4f4;
+    font-size: 120%;
+}
+.dangerOn{
+     display: none;
+ }
+.dangerOff{
+    display: block;
+}

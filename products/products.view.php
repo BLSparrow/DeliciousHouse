@@ -7,21 +7,21 @@ use App\Models\ShowData;
 <div class="main">
     <p class="message"><?= $_SESSION['msg'] ?></p>
     <form action="#" method="get" enctype="multipart/form-data">
-        <div class="card">
-            <label class="text" for="category_id">Сортировка по категориям</label><br>
+        <div class="sort">
+            <label style="color: #f4f4f4" class="text" for="category_id">Сортировка по категориям</label><br>
             <select class="t" name="filterCategory_id" id="category_id">
                 <option value="" disabled selected>Выберите категорию</option>
                 <?php foreach ($categories as $category): ?>
                     <option value="<?= $category->id ?>"><?= $category->name ?></option>
                 <?php endforeach; ?>
             </select>
-            <button name="searchButton">Поиск</button>
+            <button class="subscribe" name="searchButton">Поиск</button>
         </div>
     </form>
     <br>
 
-
-    <table border="1" class="card">
+<p class="<?= $_SESSION['alert'] ?? '' ?>"><?= $_SESSION['msg'] ?? '' ?></p>
+    <table border="1" class="<?= $_SESSION['danger'] ?? '' ?>">
         <tr>
             <th>Название</th>
             <th>Картинка</th>

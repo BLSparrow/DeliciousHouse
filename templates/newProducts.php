@@ -1,3 +1,4 @@
+<?php use App\Models\ShowData; ?>
 <h1 style="text-align: center">Новинки</h1>
 <div class="cards">
     <?php foreach ($products as $product): ?>
@@ -11,9 +12,12 @@
             </div>
             <div class="text">
                 <div class="name"><h3><?= $product->name ?></h3></div>
-                <div><span class="bold">Состав:</span> <?= $product->description ?></div>
+                <div class="description">
+                    <span class="bold">Состав:</span> <?= ShowData::showText($product->description) ?>
+                    <a class="subscribe" href="/products/show.php?id=<?= $product->id ?>">Подробнее</a>
+                </div>
                 <div class="price"><?= $product->price ?>р</div>
-                <div><img class="imgBasket" src="/startIMG/корзина.png" alt="img"></div>
+                <div><a href="#" title="Добавить в корзину"><img class="imgBasket" src="/startIMG/корзина.png" alt="img"></a></div>
             </div>
         </div>
     <?php endforeach; ?>

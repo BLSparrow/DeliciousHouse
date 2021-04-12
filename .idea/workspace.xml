@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="Добавил фон">
+    <list default="true" id="ebc73262-c586-4bf0-8d9a-6974dbf6cfca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162911.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Саку_1618162951.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212072.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212095.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212112.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/печенье_1618212135.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/ShowData.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/ShowData.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641479.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617641499.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617641371.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617733532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/filterProduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,26 +44,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1qYDh8WXqHzEpC4bsTM9laMNQJT" />
+  <component name="ProjectId" id="1r3ICssGTLWqBz5RT093Pv4AGjM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,139 +59,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\products" />
-      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\APP\Models" />
-      <recent name="C:\OpenServer\domains\DeliciousHouse\countries" />
-      <recent name="C:\OpenServer\domains\DeliciousHouse\categories" />
-      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\register" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a6b2e2a1-10b0-41d8-a5dc-5bdb32a442fd" name="Default Changelist" comment="" />
-      <created>1617247785137</created>
+      <changelist id="ebc73262-c586-4bf0-8d9a-6974dbf6cfca" name="Default Changelist" comment="" />
+      <created>1618198266155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617247785137</updated>
-      <workItem from="1617247804932" duration="48000" />
-      <workItem from="1617247864005" duration="21063000" />
-      <workItem from="1617340399911" duration="2621000" />
-      <workItem from="1617343051523" duration="19357000" />
-      <workItem from="1617420784099" duration="12498000" />
-      <workItem from="1617638873199" duration="2409000" />
-      <workItem from="1617641309477" duration="4893000" />
-      <workItem from="1617728762850" duration="6948000" />
-      <workItem from="1618025348016" duration="12183000" />
-      <workItem from="1618067496424" duration="1948000" />
-      <workItem from="1618151894697" duration="3212000" />
-      <workItem from="1618157646528" duration="7992000" />
+      <updated>1618198266155</updated>
+      <workItem from="1618198277845" duration="23000" />
+      <workItem from="1618198321016" duration="17198000" />
     </task>
-    <task id="LOCAL-00001" summary="Админ панель">
-      <created>1617345762395</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1617345762395</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Админ панель">
-      <created>1617360051282</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617360051282</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Админ панель 2.0">
-      <created>1617362442158</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1617362442158</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Админ панель и Категории">
-      <created>1617433104443</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1617433104443</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Админ панель и Категории">
-      <created>1617433144797</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1617433144797</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Админ панель и Категории на главной">
-      <created>1617433654316</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1617433654316</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Админ панель и Категории на главной">
-      <created>1617646236520</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1617646236520</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Удаление и редактирование товара">
-      <created>1617735942789</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1617735942789</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Сортировка">
-      <created>1618037725538</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1618037725538</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Добавил фон">
-      <created>1618070258375</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1618070258375</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Админ панель" />
-    <MESSAGE value="Админ панель 2.0" />
-    <MESSAGE value="Админ панель и Категории" />
-    <MESSAGE value="Админ панель и Категории на главной" />
-    <MESSAGE value="Удаление и редактирование товара" />
-    <MESSAGE value="Сортировка" />
-    <MESSAGE value="Добавил фон" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил фон" />
   </component>
 </project>
