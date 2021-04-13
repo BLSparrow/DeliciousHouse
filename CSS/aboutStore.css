@@ -1,0 +1,38 @@
+.card-container {
+    margin-right: 25px;
+    cursor: pointer;
+    height: 150px;
+    perspective: 600px;
+    position: relative;
+    width: 250px;
+}
+
+.cardB {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.cardB:hover {
+    transform: rotateX(180deg);
+}
+
+.cardB .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cardB .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateX(180deg);
+}

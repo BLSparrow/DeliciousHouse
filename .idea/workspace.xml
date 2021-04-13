@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/promotions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startIMG/акция1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startIMG/акция2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/aboutStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/promotionsAndDiscounts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/837d1b4b-665c-4cae-a423-813661571715/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af1635f6-e210-40a5-97b9-c9a98dfee238/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="Акции и О магазине">
+      <change afterPath="$PROJECT_DIR$/CSS/aboutStore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Гулаб_Джамун.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Круассан.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/promotions.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/promotions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/aboutStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aboutStore.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/promotionsAndDiscounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/promotionsAndDiscounts.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DB" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,8 +72,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618236181321</updated>
-      <workItem from="1618236199171" duration="5246000" />
+      <workItem from="1618236199171" duration="5462000" />
+      <workItem from="1618287906415" duration="16134000" />
     </task>
+    <task id="LOCAL-00001" summary="Акции и О магазине">
+      <created>1618242032453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618242032453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +98,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Акции и О магазине" />
+    <option name="LAST_COMMIT_MESSAGE" value="Акции и О магазине" />
   </component>
 </project>

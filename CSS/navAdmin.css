@@ -16,6 +16,13 @@ h6 {
     text-align: center;
 }
 
+.h1 {
+    font-size: 200%;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+
+
 body {
     font-family: "Nunito";
     background: url(/startIMG/fon.jpg) no-repeat center center fixed;
@@ -56,6 +63,10 @@ body {
     color: #f4f4f4;
     background: #222;
     border-color: #000;
+}
+
+.down {
+    margin-left: 45%;
 }
 
 #loadImage {
@@ -140,20 +151,50 @@ body {
     color: #f4f4f4;
 }
 
+
 table {
+    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.71);
+    font-size: 14px;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
 }
-.alert-success{
+
+th {
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid #f4f4f4;
+    padding: 10px 8px;
+}
+
+td {
+    color: black;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+tr:hover td {
+    color: #6699ff;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.alert-success {
     display: none;
 }
-.alert-danger{
+
+.alert-danger {
     display: block;
     color: #f4f4f4;
     font-size: 120%;
 }
-.dangerOn{
-     display: none;
- }
-.dangerOff{
-    display: block;
+
+.dangerOn {
+    display: none;
+}
+
+.dangerOff {
+    display: flex;
 }

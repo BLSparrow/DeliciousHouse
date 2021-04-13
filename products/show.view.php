@@ -15,13 +15,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php';
         <div class="text">
             <div class="name"><h3><?= $product->name ?></h3></div>
             <div>
-                <span class="bold">Состав:</span><?= $product->description ?>
+                <span class="bold">Состав: </span><?= $product->description ?>
             </div>
             <div class="price"><?= $product->price ?>р</div>
             <div><a title="Добавить в корзину" href="#"><img class="imgBasket" src="/startIMG/корзина.png"
                                                              alt="img"></a></div>
-            <div><a href="/index.php" class="subscribe">Вернуться</a></div>
         </div>
     </div>
     <?php endif; ?>
 </div>
+<div><a href="/index.php" class="subscribe down">Вернуться</a></div>

@@ -1,4 +1,6 @@
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/bootstrap.php"; ?>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/header.view.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.view.php"; ?>
 
     <link rel="stylesheet" href="/CSS/promotions.css">
     <div class="global">

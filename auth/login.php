@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
     if($user){
         $_SESSION['user'] = json_encode($user, JSON_UNESCAPED_UNICODE);
         $_SESSION['auth'] = true;
-        header('Location: /admin');
+        header('Location: /admin/index.view.php');
     }
     else{
         $_SESSION['errors']['auth'] = 'Неправильно введён логин или пароль!';

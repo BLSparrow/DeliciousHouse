@@ -1,11 +1,11 @@
 <link rel="shortcut icon" type="image/x-icon" href="/startIMG/logo.png">
 <link rel="stylesheet" href="/CSS/navAdmin.css">
 <nav id="menuVertical">
-    <h1>Панель администратора</h1><br>
+    <h1 class="h1">Панель администратора</h1><br>
     <ul>
         <li><a href="/register/users.php">Менеджер</a>
             <ul>
-                <li><a href="/register">Регестрация</a></li>
+                <li><a href="/register">Регистрация</a></li>
                 <li><a href="/register/users.php">Список</a></li>
             </ul>
         </li>

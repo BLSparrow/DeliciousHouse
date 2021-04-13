@@ -1,4 +1,7 @@
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/bootstrap.php"; ?>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/header.view.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.view.php"; ?>
+    <link rel="stylesheet" href="/CSS/aboutStore.css">
     <div class="global">
         <h1>О магазине</h1>
         <div class="cards">
@@ -10,8 +13,23 @@
             <p>У нас вы можете заказать и попробовать сладости со всего света: начиная с традиционных французских
                 круассанов и заканчивая индийским Гулаб джамуном (молочные шарики в сиропе).</p>
 
-            <div class="card"><img class="imgCards" src="/startIMG/Круассан.jfif" alt="img"></div>
-            <div class="card"><img class="imgCards" src="/startIMG/Гулаб_Джамун.jpg" alt="img"></div>
+
+            <div class="cards">
+                <div class="card-container">
+                    <div class="cardB">
+                        <div class="side"><img class="imgCards" src="/startIMG/Круассан.jfif"
+                                               alt="Круассан"></div>
+                        <div class="side back">Круассан</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="cardB">
+                        <div class="side"><img class="imgCards" src="/startIMG/Гулаб_Джамун.jpg"
+                                               alt="Гулаб Джамун"></div>
+                        <div class="side back">Гулаб Джамун</div>
+                    </div>
+                </div>
+            </div>
 
             <p><span class="bold">Мы вас заинтересовали?</span><br><br>
                 Если да, то вы смело можете погрузиться в волшебный мир нашего меню. Но хотелось бы ещё рассказать о

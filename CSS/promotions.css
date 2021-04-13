@@ -4,12 +4,14 @@
     border: 1px solid black;
     transform: translate(-50%,-50%);
     width: 100%;
-    background: #333333;
+    background: #f4f4f4;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .cardA .imgBx,
 .cardA .details {
+    align-content: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -30,9 +32,10 @@
 .cardA .details {
     font-size: 100%;
     background: #333333;
+    /*background: #f4f4f4;*/
     top: 0;
     left: 100%;
-    padding: 60px 30px;
+    padding: 5%;
 }
 .cardA:hover .details {
     top: 0;

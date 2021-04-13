@@ -19,12 +19,12 @@ class Product
         return $stmt->fetchAll();
     }
 
-    public function getFProducts()
+    public function getAllProductsWithCountry()
     {
-        $stmt = $this->pdo->query('SELECT * FROM products ORDER BY category_id LIMIT 3');
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
+                            FROM products INNER JOIN countries ON products.country_id = countries.id LIMIT 3 ');
         return $stmt->fetchAll();
     }
-
 
     public function deleteProduct($id)
     {

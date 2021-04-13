@@ -2,7 +2,7 @@
     <div style="margin-bottom: 35%" class="cards">
         <div class="card">
             <h2>Войти в панель администратора</h2>
-            <form action="login.php" method="post" style="padding: 10px">
+            <form action="../auth/login.php" method="post" style="padding: 10px">
 
                 <div>
                     <label for="login">Login:</label><br>

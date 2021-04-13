@@ -20,14 +20,14 @@ use App\Models\ShowData;
     </form>
     <br>
 
-<p class="<?= $_SESSION['alert'] ?? '' ?>"><?= $_SESSION['msg'] ?? '' ?></p>
-    <table border="1" class="<?= $_SESSION['danger'] ?? '' ?>">
+    <p class="<?= $_SESSION['alert'] ?? '' ?>"><?= $_SESSION['msg'] ?? '' ?></p>
+    <table class="<?= $_SESSION['danger'] ?? '' ?>">
         <tr>
             <th>Название</th>
             <th>Картинка</th>
             <th>Описание</th>
-            <th>Вес</th>
-            <th>Цена</th>
+            <th>Вес (г.)</th>
+            <th>Цена (руб.)</th>
             <th>Порции</th>
         </tr>
 

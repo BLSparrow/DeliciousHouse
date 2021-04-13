@@ -2,8 +2,8 @@
     <ul>
         <li><a class="sl2" href="/"><img class="nav_basket" src="/startIMG/logo.png" alt="img"><span class="dh">DeliciousHouse</span></a>
         </li>
-        <li><a class="sl3" href="/auth"><?= $user ? 'Выйти' : 'Войти' ?></a></li>
-        <li><a href="/admin/index.view.php" class="sl3"><?= $user->role ?></a></li>
+        <!--        <li><a class="sl3" href="/auth">--><? //= $user ? 'Выйти' : 'Войти' ?><!--</a></li>-->
+        <!--        <li><a href="/admin/index.view.php" class="sl3">--><? //= $user->role ?><!--</a></li>-->
     </ul>
     <ul class="ulMenu">
         <li>
@@ -20,8 +20,8 @@
                 Каталог продукции
             </button>
         </li>
-        <li><a class="sl" href="/templates/promotionsAndDiscounts.php">Акции и скидки</a></li>
-        <li><a class="sl" href="/templates/aboutStore.php">О магазине</a></li>
+        <li><a class="sl" href="/templates/promotionsAndDiscounts.view.php">Акции и скидки</a></li>
+        <li><a class="sl" href="/templates/aboutStore.view.php">О магазине</a></li>
         <li><a class="sl" href="/">Контакты</a></li>
         <li><a href="#"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></a></li>
     </ul>

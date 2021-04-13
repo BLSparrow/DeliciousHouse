@@ -9,7 +9,7 @@
     <tr>
         <td><?= $user->login ?></td>
         <td><?= $user->role ?></td>
-        <?php if ($user->role != "admin"): ?>
+        <?php if ($user->role != "Admin"): ?>
         <td>
             <form action="/register/deleteUser.php" method="post">
                 <input type="hidden" name="id" value="<?= $user->id ?>">
