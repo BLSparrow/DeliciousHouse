@@ -3,14 +3,16 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
+    margin: 0 10% 10% 10%;
 }
 
 .card {
+    cursor: pointer;
     margin-top: 30px;
     width: 300px;
     margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.384);
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-radius: 10px;
     box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
 }
@@ -33,6 +35,7 @@
 }
 
 .imgCards {
+    border-radius: 10px;
     width: 100%;
     justify-content: center;
     align-content: center;
@@ -52,12 +55,19 @@
     float: right;
 }
 
+.imgBasket:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .name {
     color: maroon;
 }
 
 .text {
-    padding: 5%;
+    padding: 3%;
 }
 
 .bold {

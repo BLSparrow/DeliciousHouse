@@ -3,10 +3,10 @@
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.view.php"; ?>
 
     <link rel="stylesheet" href="/CSS/promotions.css">
-    <div class="global">
+<!--    <div class="global">-->
         <div class="cards">
             <h1>Акции и скидки</h1>
-            <div class="cardA" style="margin-top: 200px;height: 250px;">
+            <div class="cardA" style="margin-top: 200px;height: 300px;">
                 <div class="imgBx">
                     <img src="/startIMG/акция1.jpg" alt="img">
                 </div>
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div style="height: 250px;" class="cardA">
+            <div style="height: 300px;" class="cardB">
                 <div class="imgBx">
                     <img src="/startIMG/акция2.jpg" alt="img">
                 </div>
@@ -34,6 +34,6 @@
                 </div>
             </div>
         </div>
-    </div>
+<!--    </div>-->
 
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.view.php"; ?>

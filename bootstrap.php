@@ -26,6 +26,7 @@ $dataCategory = new Category(Connect::make(CONN));
 $dataCountry = new Country(Connect::make(CONN));
 
 $categories = $dataCategory->getAllCategories();
+$productsLimit = $dataProd->getAllProductsLimit();
 $products = $dataProd->getAllProductsWithCountry();
 
 $dataValid = new Validator;

@@ -7,7 +7,7 @@
     </div>
     <div class="divCopyText">
         <span style="font-family: BRUSH SCRIPT MT">&copy;2020-2021,</span> &#171;<span class="dh3">DeliciousHouse</span>&#187;
-        Интеренет-магазин десертов. Все права
+        Интернет-магазин десертов. Все права
         защищены.
     </div>
     <div class="divCopy">

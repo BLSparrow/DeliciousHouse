@@ -22,7 +22,7 @@
         </li>
         <li><a class="sl" href="/templates/promotionsAndDiscounts.view.php">Акции и скидки</a></li>
         <li><a class="sl" href="/templates/aboutStore.view.php">О магазине</a></li>
-        <li><a class="sl" href="/">Контакты</a></li>
+        <li><a class="sl" href="/templates/allProducts.php">Товары</a></li>
         <li><a href="#"><img class="nav_basket" src="/startIMG/корзина.png" alt="img"></a></li>
     </ul>
 </nav>

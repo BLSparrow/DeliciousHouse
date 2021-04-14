@@ -2,10 +2,11 @@
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/header.view.php"; ?>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/sidebar.view.php"; ?>
     <link rel="stylesheet" href="/CSS/aboutStore.css">
-    <div class="global">
-        <h1>О магазине</h1>
-        <div class="cards">
-            <h2 class="dh">DeliciousHouse</h2>
+    <!--    <div class="global">-->
+    <h1 style="text-align: center">О магазине</h1>
+    <div class="cards">
+        <h2 class="dh">DeliciousHouse</h2>
+        <div class="text">
             <p>Если вы не сладкоежка, то вам стоит пролистать дальше…
                 Если же вы любите побаловать себя сладким и узнать много интересного про сладости всего мира, то эта
                 статья точно для вас.</p>
@@ -42,4 +43,5 @@
                 ценителей десертов. Будьте смелее и решительнее, поддайтесь соблазну и станьте нашим клиентом.</p>
         </div>
     </div>
+    <!--    </div>-->
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.view.php"; ?>

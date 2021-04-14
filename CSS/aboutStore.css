@@ -1,6 +1,6 @@
 .card-container {
     margin-right: 25px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     height: 150px;
     perspective: 600px;
     position: relative;

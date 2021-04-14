@@ -1,7 +1,7 @@
 <?php use App\Models\ShowData; ?>
 <h1 style="text-align: center">Новинки</h1>
 <div class="cards">
-    <?php foreach ($products as $product): ?>
+    <?php foreach ($productsLimit as $product): ?>
         <div class="card">
             <div class="imgBlock">
                 <img class="imgCards" src="/IMG/<?= $product->image ?>" alt="img">

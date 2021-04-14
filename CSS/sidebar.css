@@ -103,10 +103,9 @@ body.sidebar-opened {
     z-index: 100;
     width: 300px;
     height: 100%;
-    right: -300px;
-    top: 0;
+    left: -100%;
+    top: 100px;
     background: #f4f4f4;
-    transition: right 0.4s ease;
     overflow: auto;
 }
 
@@ -141,7 +140,8 @@ body.sidebar-opened {
 }
 
 .sidebar.show {
-    right: 0;
+    transition: 0.4s;
+    left: 0;
 }
 
 .sidebar ul {

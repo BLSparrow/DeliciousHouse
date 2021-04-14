@@ -59,10 +59,13 @@ class Category
 
     public function getProductsForCategory($id)
     {
+
         $stmt = $this->pdo->prepare('SELECT products.*, categories.name as nameCateg FROM products 
                             inner join categories on products.category_id = categories.id
                             WHERE categories.id=:id');
         $stmt->execute(['id' => $id]);
-        return $stmt->fetchAll();
+        $temp = $stmt->fetchAll();
+
+        return $temp;
     }
 }

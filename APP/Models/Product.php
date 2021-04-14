@@ -22,6 +22,13 @@ class Product
     public function getAllProductsWithCountry()
     {
         $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
+                            FROM products INNER JOIN countries ON products.country_id = countries.id');
+        return $stmt->fetchAll();
+    }
+
+    public function getAllProductsLimit()
+    {
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
                             FROM products INNER JOIN countries ON products.country_id = countries.id LIMIT 3 ');
         return $stmt->fetchAll();
     }
