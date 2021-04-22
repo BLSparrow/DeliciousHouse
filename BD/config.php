@@ -10,6 +10,6 @@ const CONN = [
     ],
 ];
 
-$maxFileSize = 5 * 1024 * 1024;
+$maxFileSize = 20 * 1024 * 1024;
 $validFileTypes = ['image/jpg', 'image/jpeg', 'image/png'];
 $uploadPath = $_SERVER['DOCUMENT_ROOT'] . '/IMG/';

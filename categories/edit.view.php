@@ -1,37 +1,41 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
-<br>
-<div class="card">
-    <p class="message"><?= $_SESSION['msg'] ?? '' ?></p>
-    <h2>Изменить категорию</h2><br>
-    <form action="updateCategory.php" method="post" enctype="multipart/form-data">
-        <div style="display: none">
-            <label for="id">Категория</label><br>
-            <input class="t" type="text" id="id" name="id" value="<?= $category->id ?>">
-        </div>
-        <div>
-            <label for="name">Название категории</label><br>
-            <input class="t" type="text" id="name" name="name" value="<?= $category->name ?>">
-        </div>
-        <br>
-
-        <div>
-            <label for="description">Описание категории</label><br>
-            <textarea class="t" name="description" id="description" rows="3"><?= $category->description ?></textarea>
-        </div>
-        <br>
-
-
-        <div>
-            <label for="image">Выберите файл-изображение</label>
+<link rel="stylesheet" href="/CSS/products.css">
+<br><br>
+<div class="cardsAnk">
+    <div style="width: 25%; padding: 5%" class="cardAnk">
+        <p class="message"><?= $_SESSION['msg'] ?? '' ?></p>
+        <h2>Изменить категорию</h2><br>
+        <form action="updateCategory.php" method="post" enctype="multipart/form-data">
+            <div style="display: none">
+                <label class="bold" for="id">Категория</label><br>
+                <input class="t" type="text" id="id" name="id" value="<?= $category->id ?>">
+            </div>
+            <div>
+                <label class="bold" for="name">Название категории</label><br>
+                <input class="t" type="text" id="name" name="name" value="<?= $category->name ?>">
+            </div>
             <br>
-            <input class="subscribe" type="file" name="image" id="image">
-        </div>
-        <br>
+
+            <div>
+                <label class="bold" for="description">Описание категории</label><br>
+                <textarea class="t" name="description" id="description"
+                          rows="3"><?= $category->description ?></textarea>
+            </div>
+            <br>
 
 
-        <img src="../img/<?= $category->image ?>" alt="img" id="loadImage" style="width: 100px; display: block;">
-        <button class="subscribe" type="submit" name="submitUpdate">Редактировать</button>
-    </form>
+            <div>
+                <label class="bold" for="image">Выберите файл-изображение</label>
+                <br>
+                <input class="subscribe" type="file" name="image" id="image">
+            </div>
+            <br>
+
+
+            <img src="../img/<?= $category->image ?>" alt="img" id="loadImage" style="width: 100px; display: block;">
+            <button class="subscribe" type="submit" name="submitUpdate">Редактировать</button>
+        </form>
+    </div>
 </div>
 
 <script>

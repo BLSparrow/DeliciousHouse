@@ -1,24 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="Авторизация 100%">
-      <change afterPath="$PROJECT_DIR$/products/sortProducts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allProducts.php" afterDir="false" />
+    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="Сортировка по товарам!">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-bigben-tretyakov-2166.9XarEg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-fateev.OXst4g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-payusov.ESzOdA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-rakhmatullin.IqtwaQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-avtovaz-tretyakov-2166.2Owrfg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-badin-3134.vQ2cYw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-kadyrov.81Jt_w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/3-badin-3134.HLNNaw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/3-kadyrov.9MGxkw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/4-badin-3134.e1j_cg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/5-badin-3134.2v2weg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/5-fateev.tS6ygQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-badin-3134.VpN3mQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-fateev.MeI2IQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-topor.ZBOkGg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9pr-fateev.L6CkhA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/bigben.i98yrQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/bigben3133.SQ9qEg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/db_delicioushouse.eGQwJA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/dogs.tyIvAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droiddroid.gK2V4A.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droidmn.HQ3Fcg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droidwpwp.7tu61Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/ecohome.8EsSjg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/languageshoolistaev.h9itzw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/laravel.uWob_Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds-pashkov.ZoV87g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds-perevozchikova.wInfrA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds.Z4PMug.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/module4.SCcpSQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/questionnaire.ow1hww.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/sfabuser.f8MEaQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/Models/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/Models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/table-basket.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/apple_1619091400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cake_1619091615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/cheezcake_1619091652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Дженовезе_1619095820.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Компрезе_1619095878.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Мороженое_1619092184.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Печенье_1619091867.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Пирог_1619091766.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Пирожное_1619092054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Пончик_1619092325.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/брауни_1619096788.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/кассата_1619095022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/лаймовый_1619097873.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/панакота_1619096294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пекан_1619097587.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/тирамису_1619095303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/цукотто_1619095523.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baskets/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baskets/index.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baskets/insertCart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baskets/questionnaire.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/cake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Германия.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Дженовезе.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Италия.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Компрезе.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Мороженое.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Печенье.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Пирог.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Пирожное.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Пончик.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/США.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Франция.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/брауни.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/кассата.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/лаймовый.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/панакота.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/пекан.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/тирамису.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/цукотто.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/aboutStore.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/aboutStore.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/promotions.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/promotions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/brit_1617641980.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/new_1618033280.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/new_1619090861.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/rus_1617641974.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/rus_1619092348.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Саку_1618034350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Саку_1618162808.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Саку_1618162911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Саку_1618162951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1617731750.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1618212072.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1618212095.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1618212112.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/печенье_1618212135.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пирог_1618028950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пироженое_1617731743.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/пончик_1617731736.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/categories.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/categories.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries/countries.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/countries.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/countries/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/new.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/new.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/new.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/sortProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/sortProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/apple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/brit.png" beforeDir="false" afterPath="$PROJECT_DIR$/startIMG/brit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/cake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/franch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/germ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/ital.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/usa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/мороеное.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/печенье.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/пирог.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/пироженое.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/пончик.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/aboutStore.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aboutStore.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/allProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allProducts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/promotionsAndDiscounts.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/promotionsAndDiscounts.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sidebar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/slider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +179,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,6 +193,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,9 +206,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="" />
@@ -70,7 +223,17 @@
       <workItem from="1618236199171" duration="5462000" />
       <workItem from="1618287906415" duration="16430000" />
       <workItem from="1618370953563" duration="49000" />
-      <workItem from="1618376952813" duration="12407000" />
+      <workItem from="1618376952813" duration="12433000" />
+      <workItem from="1618543765705" duration="156000" />
+      <workItem from="1618547943713" duration="13323000" />
+      <workItem from="1618561853111" duration="83000" />
+      <workItem from="1618561936698" duration="1558000" />
+      <workItem from="1618804449925" duration="15405000" />
+      <workItem from="1618976737530" duration="17856000" />
+      <workItem from="1618995223486" duration="33000" />
+      <workItem from="1619087731654" duration="242000" />
+      <workItem from="1619088070097" duration="4167000" />
+      <workItem from="1619112033726" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="Акции и О магазине">
       <created>1618242032453</created>
@@ -86,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618304726653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сортировка по товарам!">
+      <created>1618391301862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618391301862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +277,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Акции и О магазине" />
     <MESSAGE value="Авторизация 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="Авторизация 100%" />
+    <MESSAGE value="Сортировка по товарам!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сортировка по товарам!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618977889808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618977889808" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618819126776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618819126776" />
+    <state x="697" y="243" key="NewPhpClassDialog" timestamp="1618977761570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618977761570" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1618816484704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618816484704" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1618982537255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618982537255" />
   </component>
 </project>

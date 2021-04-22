@@ -1,22 +1,24 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
-<br>
-<div class="card">
+<link rel="stylesheet" href="/CSS/products.css">
+<br><br>
+<div class="cardsAnk">
+<div style="width: 25%; padding: 5%" class="cardAnk">
     <p class="message"><?= $_SESSION['msg'] ?? '' ?></p>
     <h2>Изменить категорию</h2><br>
     <form action="updateCountry.php" method="post" enctype="multipart/form-data">
         <div style="display: none">
-            <label for="id">Категория</label><br>
+            <label class="bold" for="id">Категория</label><br>
             <input class="t" type="text" id="id" name="id" value="<?= $country->id ?>">
         </div>
         <div>
-            <label for="country">Название категории</label><br>
+            <label class="bold" for="country">Название категории</label><br>
             <input class="t" type="text" id="country" name="country" value="<?= $country->country ?>">
         </div>
         <br>
 
 
         <div>
-            <label for="image">Выберите файл-изображение</label>
+            <label class="bold" for="image">Выберите файл-изображение</label>
             <br>
             <input class="subscribe" type="file" name="image" id="image">
         </div>

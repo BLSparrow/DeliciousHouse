@@ -1,0 +1,49 @@
+.fab {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.fa-vk {
+    color: #adadad;
+    font-size: 40px;
+    background: #dadada;
+    line-height: 45px;
+    padding-top: 10px;
+}
+.fa-vk:hover {
+    color: white;
+    font-size: 40px;
+    background: rgb(102, 122, 211);
+
+}
+.fa-instagram {
+    color: #adadad;
+    font-size: 40px;
+    background: #dadada;
+    line-height: 45px;
+    padding-top: 10px;
+}
+.fa-instagram:hover {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: none;
+}
+.fa-whatsapp{
+    color: #adadad;
+    font-size: 40px;
+    background: #dadada;
+    line-height: 45px;
+    padding-top: 10px;
+}
+.fa-whatsapp:hover{
+    color: white;
+    font-size: 40px;
+    background: rgb(70, 186, 47);
+
+}

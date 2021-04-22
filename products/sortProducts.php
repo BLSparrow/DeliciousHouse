@@ -2,18 +2,17 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
 
 
-
-
 if (isset($_GET['id'])) {
     $products = $dataCategory->getProductsForCategory($_GET['id']);
     if (!$products) {
-        $_SESSION['msg'] = 'Товаров в такой категории нет!';
+        $_SESSION['msg'] = '';
         $_SESSION['alert'] = 'alert-danger';
-        $_SESSION['danger'] = 'dangerOn';
+//        $_SESSION['danger'] = 'dangerOn';
+        $products = $dataProd->getAllProductsWithCountry();
     } else {
-        $_SESSION['msg'] = 'Вот ваши товары!!!';
+        $_SESSION['msg'] = '';
         $_SESSION['alert'] = 'alert-success';
-        $_SESSION['danger'] = 'dangerOff';
+//        $_SESSION['danger'] = 'dangerOff';
     }
 }
 

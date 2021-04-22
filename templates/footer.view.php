@@ -6,16 +6,21 @@
         </ul>
     </div>
     <div class="divCopyText">
-        <span style="font-family: BRUSH SCRIPT MT">&copy;2020-2021,</span> &#171;<span class="dh3">DeliciousHouse</span>&#187;
+        <span style="font-family: BRUSH SCRIPT MT">&copy;2020-2021,</span> &#171;<span class="dh3"><a href="/templates/aboutStore.view.php">DeliciousHouse</a></span>&#187;
         Интернет-магазин десертов. Все права
         защищены.
     </div>
     <div class="divCopy">
-        <img style="width: 150px;" src="/startIMG/soc-ikon.jpg" alt="img">
+        <div class="social">
+            <a href="" target="blank"><i class="fab fa-vk"></i></a>
+            <a href="" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="" target="blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
     </div>
 </footer>
 </div>
 <script src="/JS/sidebar.js" type="text/javascript"></script>
 <script src="/JS/slider.js" type="text/javascript"></script>
+<script src="/JS/input.js" type="text/javascript"></script>
 </body>
 </html>

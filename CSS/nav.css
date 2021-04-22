@@ -5,6 +5,7 @@ html, body {
 .divCopy {
     padding: 15px;
     border-left: 3px solid #FF7A00;
+    box-sizing: border-box;
 }
 
 .divCopyText {
@@ -84,6 +85,25 @@ li img {
 
 .nav_basket {
     width: 7em;
+}
+
+.nav_cont {
+    position: relative;
+    width: 100%;
+}
+
+.nav_count {
+    text-align: center;
+    font-size: 120%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    color: #ff0400;
 }
 
 .nav_basketFooter {

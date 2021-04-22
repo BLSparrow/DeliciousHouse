@@ -29,7 +29,7 @@ class Product
     public function getAllProductsLimit()
     {
         $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
-                            FROM products INNER JOIN countries ON products.country_id = countries.id LIMIT 3 ');
+                            FROM products INNER JOIN countries ON products.country_id = countries.id INNER JOIN categories ON products.category_id = categories.id WHERE category_id = 8');
         return $stmt->fetchAll();
     }
 

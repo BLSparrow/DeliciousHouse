@@ -1,5 +1,6 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php'; ?>
+<br><br>
 <div class="main">
     <table class="card" border="1">
         <?php foreach ($categories as $category): ?>

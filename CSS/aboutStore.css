@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lacquer|Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 .card-container {
     margin-right: 25px;
     /*cursor: pointer;*/
@@ -35,4 +37,11 @@
     line-height: 150px;
     text-align: center;
     transform: rotateX(180deg);
+}
+
+p{
+    font-family:"Nunito";
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+    font-size: 110%;
 }

@@ -4,6 +4,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/nav.admin.php';
 use App\Models\ShowData;
 
 ?>
+<br><br>
 <div class="main">
     <p class="message"><?= $_SESSION['msg'] ?></p>
     <form action="#" method="get" enctype="multipart/form-data">

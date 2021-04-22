@@ -1,6 +1,4 @@
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php';
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php'; ?>
 <link rel="stylesheet" href="/CSS/navAdmin.css">
 <div class="cards">
     <div class="cardShow">
@@ -17,11 +15,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.view.php';
             <div>
                 <span class="bold">Состав: </span><?= $product->description ?>
             </div>
-            <div class="price"><?= $product->price ?>р</div>
-            <div><a title="Добавить в корзину" href="#"><img class="imgBasket" src="/startIMG/корзина.png"
-                                                             alt="img"></a></div>
+            <div class="price"><span class="discount"><?= $product->price ?>&#x20bd;</span><br><?= $product->price-139 ?>&#x20bd;</div>
+            <div><a title="Добавить в корзину" href="/baskets/index.php?id=<?= $product->id ?>"><img class="imgBasket" src="/startIMG/корзина.png"
+                                                                                                     alt="img"></a></div>
         </div>
     </div>
     <?php endif; ?>
 </div>
-<div><a href="/index.php" class="subscribe down">Вернуться</a></div>
+<div class="down"><button class="subscribe" name="back" onclick="goBack()">Вернуться</button></div>
+    <script>
+        function goBack(){
+            window.history.go(-1);
+        }
+    </script>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/templates/footer.view.php'; ?>
