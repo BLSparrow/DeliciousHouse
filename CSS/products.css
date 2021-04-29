@@ -42,7 +42,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 0 10% 5% 10%;
+    margin: 5% 10% 5% 10%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
@@ -105,8 +105,9 @@
     justify-content: center;
     background: #fff;
     outline: none;
+    width: 90%;
     font-weight: bold;
-    padding: 10px 18px;
+    padding: 5%;
     border-radius: 25px;
     border: 1px solid black;
     letter-spacing: 1px;

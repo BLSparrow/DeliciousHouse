@@ -29,7 +29,9 @@ class Product
     public function getAllProductsLimit()
     {
         $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
-                            FROM products INNER JOIN countries ON products.country_id = countries.id INNER JOIN categories ON products.category_id = categories.id WHERE category_id = 8');
+                            FROM products INNER JOIN countries ON products.country_id = countries.id 
+                                INNER JOIN categories ON products.category_id = categories.id
+                                WHERE category_id = 8 LIMIT 3');
         return $stmt->fetchAll();
     }
 
@@ -77,6 +79,12 @@ class Product
             'weight' => $data['weight'],
             'price' => $data['price']
         ]);
+    }
+    public function getOneText($id)
+    {
+        $stmt = $this->pdo->prepare('SELECT * FROM texts WHERE id=:id');
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetch();
     }
 
 }

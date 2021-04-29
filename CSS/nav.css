@@ -1,26 +1,24 @@
 html, body {
     height: 100%;
+    background: #f4f4f4;
 }
 
 .divCopy {
     padding: 15px;
     border-left: 3px solid #FF7A00;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .divCopyText {
-    width: 50%;
+    width: 40%;
     font-size: 120%;
+    padding: 1%;
 }
 
 body {
     margin: 0;
     padding: 0;
-    /*background-image: url("/startIMG/Фон.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*background-clip: border-box;*/
-    /*background-size: cover;*/
     display: flex;
     flex-direction: column;
 }
@@ -40,15 +38,19 @@ footer {
 .logoFooter {
     border-right: 3px solid #FF7A00;
     margin: 0 auto;
-    padding: 0;
+    padding: 15px;
+}
+
+.logoFooter img {
+    width: 300px;
 }
 
 .global {
     background-color: #f4f4f4;
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     flex: 1 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 li img {
@@ -56,8 +58,7 @@ li img {
 }
 
 .dh {
-    font-size: 300%;
-    /*color: #FF7A00;*/
+    font-size: 150%;
     background: linear-gradient(to right, #FF7A00, red);
     font-family: SEGOE SCRIPT;
     -webkit-background-clip: text;
@@ -67,16 +68,15 @@ li img {
 .dh2 {
     font-size: 120%;
     padding: 15px;
-    /*color: #FF7A00;*/
     background: linear-gradient(to right, #FF7A00, red);
     font-family: SEGOE SCRIPT;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
 
 .dh3 {
     font-size: 100%;
-    /*color: #FF7A00;*/
     background: linear-gradient(to right, #FF7A00, red);
     font-family: SEGOE SCRIPT;
     -webkit-background-clip: text;
@@ -85,6 +85,10 @@ li img {
 
 .nav_basket {
     width: 7em;
+}
+
+.nav_logo {
+    width: 5em;
 }
 
 .nav_cont {
@@ -170,19 +174,229 @@ li .sl:hover:not(.active) {
     transition: 0.5s;
 }
 
-nav.main-nav {
-    margin-bottom: 25px;
-    /*background-color: #333333;*/
+
+* {
+    box-sizing: border-box;
+    transition: 0.4s ease all;
+}
+
+.navbar {
     background-color: #f4f4f4;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 100;
+    padding: 15px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
     box-shadow: 0.0em 0.0em 5px rgba(122, 122, 122, 0.5);
 }
 
-.ulMenu {
+.navbar .logo {
+    cursor: pointer;
+    font-family: "Lacquer";
+}
+
+.navbar ul.links {
+    font-family: "Nunito";
+    margin-left: auto;
+    margin-right: 50px;
+    list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    align-items: center;
+    transition: 0.4s ease all, 0s ease background;
+}
+
+.navbar ul.links li {
+    text-transform: uppercase;
+    padding: 0 15px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease all, 0s ease margin;
+}
+
+.navbar ul.links li a {
+    display: block;
+    color: #FF7A00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content {
+    background-size: cover;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.content h2 {
+    color: #ffc600;
+}
+
+.navbar.sticky {
+    position: fixed;
+    z-index: 40;
+}
+
+.navbar.sticky ~ main {
+    position: relative;
+    z-index: 20;
+    top: 65px;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar .right {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .toggle {
+        position: absolute;
+        top: 32.5px;
+        right: 20px;
+        z-index: 99;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toggle > * {
+        width: 80%;
+        height: 2px;
+        background-color: #FF7A00;
+        margin: 3px 0;
+    }
+
+    .navbar.collapsed .toggle .line1 {
+        transform: rotate(-45deg) translate(-4px, 5px);
+    }
+
+    .navbar.collapsed .toggle .line2 {
+        opacity: 0;
+    }
+
+    .navbar.collapsed .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .navbar.collapsed .logo {
+        position: absolute;
+        z-index: 44;
+    }
+
+    .navbar .links {
+        position: fixed;
+        background: #080808;
+        font-family: "Nunito";
+        z-index: 40;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        width: 45vw;
+        height: 100vh;
+    }
+
+    .navbar .links li:first-child {
+        margin-top: 80px;
+    }
+
+    .navbar.collapsed .links {
+        left: 0;
+    }
+
+    .navbar.collapsed .links a {
+        color: #fff;
+    }
+
+    .navbar.collapsed .links li {
+        width: 100%;
+    }
+
+    .navbar.collapsed .links li:hover a {
+        color: #080808;
+    }
+
+    .navbar.collapsed .right {
+        position: fixed;
+        font-family: "Nunito";
+        width: 45vw;
+        text-align: center;
+        height: auto;
+        bottom: 40px;
+        left: 22.5vw;
+        transform: translateX(-50%);
+        z-index: 45;
+    }
+
+    .navbar.collapsed ~ main {
+        filter: blur(1px);
+        opacity: 0.8;
+    }
+
+    .navbar.sticky {
+        position: fixed;
+        z-index: 40;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dh {
+        font-size: 70%;
+        background: linear-gradient(to right, #FF7A00, red);
+        font-family: SEGOE SCRIPT;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav_logo {
+        width: 2em;
+    }
+
+    .nav_basket {
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .dh {
+        font-size: 90%;
+        background: linear-gradient(to right, #FF7A00, red);
+        font-family: SEGOE SCRIPT;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav_logo {
+        width: 3em;
+    }
+
+    .nav_basket {
+        width: 5em;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .dh {
+        font-size: 90%;
+        background: linear-gradient(to right, #FF7A00, red);
+        font-family: SEGOE SCRIPT;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav_logo {
+        width: 3em;
+    }
+
+    .nav_basket {
+        width: 5em;
+    }
 }

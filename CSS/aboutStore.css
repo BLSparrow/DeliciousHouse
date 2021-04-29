@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 .card-container {
     margin-right: 25px;
-    /*cursor: pointer;*/
     height: 150px;
     perspective: 600px;
     position: relative;
@@ -41,7 +40,33 @@
 
 p{
     font-family:"Nunito";
-    /*font-weight: bold;*/
     letter-spacing: 1px;
     font-size: 110%;
+}
+
+@media screen and (max-width: 375px) {
+    p{
+        font-size: 90%;
+    }
+    .card-container{
+        margin-bottom: 10px;
+        height: 100px;
+        perspective: 600px;
+        position: relative;
+        width: 200px;
+    }
+    .dh {
+        font-size: 130%;
+        background: linear-gradient(to right, #FF7A00, red);
+        font-family: SEGOE SCRIPT;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .cardB .back {
+        background: #eaeaed;
+        color: #0087cc;
+        line-height: 100px;
+        text-align: center;
+        transform: rotateX(180deg);
+    }
 }

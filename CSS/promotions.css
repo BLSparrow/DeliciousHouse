@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Lacquer|Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
 .cardA {
+    margin-top: 250px;
     margin-bottom: 20px;
     margin-left: 50%;
     border: 1px solid black;
     transform: translate(-50%, -50%);
     width: 100%;
+    height: 300px;
     background: #f4f4f4;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
-p{
-    font-family:"Nunito";
+
+p {
+    font-family: "Nunito";
     letter-spacing: 1px;
     font-size: 110%;
 }
@@ -46,7 +50,6 @@ p{
 .cardA .details {
     font-size: 100%;
     background: #333333;
-    /*background: #f4f4f4;*/
     top: 0;
     left: 100%;
     padding: 5%;
@@ -73,11 +76,13 @@ p{
 
 
 .cardB {
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     margin-left: 50%;
     border: 1px solid black;
     transform: translate(-50%, -50%);
     width: 100%;
+    height: 300px;
     background: #f4f4f4;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -113,7 +118,6 @@ p{
 .cardB .details {
     font-size: 100%;
     background: #333333;
-    /*background: #f4f4f4;*/
     top: 0;
     left: -100%;
     padding: 5%;
@@ -138,12 +142,123 @@ p{
     color: #fff;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 375px) {
+    .cardA {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-left: 50%;
+        border: 1px solid black;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100px;
+        background: #f4f4f4;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
 
-}
-@media screen and (max-width : 800px) {
-    …
-}
-@media screen and (max-width : 420px) {
+    h2 {
+        font-size: 70%;
+    }
 
+    p {
+        font-family: "Nunito";
+        letter-spacing: 1px;
+        font-size: 10%;
+    }
+
+    .cardA .imgBx,
+    .cardA .details {
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        box-sizing: border-box;
+        transition: .5s;
+    }
+
+    .cardB {
+        margin-left: 50%;
+        border: 1px solid black;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100px;
+        background: #f4f4f4;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+    .cardB .imgBx,
+    .cardB .details {
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        box-sizing: border-box;
+        transition: .5s;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .cardA {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-left: 50%;
+        border: 1px solid black;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 150px;
+        background: #f4f4f4;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 70%;
+    }
+
+    p {
+        font-family: "Nunito";
+        letter-spacing: 1px;
+        font-size: 50%;
+    }
+
+    .cardA .imgBx,
+    .cardA .details {
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        box-sizing: border-box;
+        transition: .5s;
+    }
+
+    .cardB {
+        margin-top: 20px;
+        margin-left: 50%;
+        border: 1px solid black;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 150px;
+        background: #f4f4f4;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+    .cardB .imgBx,
+    .cardB .details {
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        box-sizing: border-box;
+        transition: .5s;
+    }
 }

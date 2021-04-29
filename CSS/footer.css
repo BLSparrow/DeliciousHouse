@@ -5,45 +5,279 @@
     margin: 0 10px;
     text-align: center;
     border-radius: 50%;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .fa-vk {
-    color: #adadad;
+    color: #f4f4f4;
     font-size: 40px;
-    background: #dadada;
+    background: #FF7A00;
     line-height: 45px;
     padding-top: 10px;
 }
+
 .fa-vk:hover {
     color: white;
     font-size: 40px;
     background: rgb(102, 122, 211);
 
 }
+
 .fa-instagram {
-    color: #adadad;
+    color: #f4f4f4;
     font-size: 40px;
-    background: #dadada;
+    background: #FF7A00;
     line-height: 45px;
     padding-top: 10px;
 }
+
 .fa-instagram:hover {
     color: white;
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     border: none;
 }
-.fa-whatsapp{
-    color: #adadad;
+
+.fa-whatsapp {
+    color: #f4f4f4;
     font-size: 40px;
-    background: #dadada;
+    background: #FF7A00;
     line-height: 45px;
     padding-top: 10px;
 }
-.fa-whatsapp:hover{
+
+.fa-whatsapp:hover {
     color: white;
     font-size: 40px;
     background: rgb(70, 186, 47);
 
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+    }
+    .divCopyText {
+        font-size: 50%;
+        margin: 0 auto;
+        padding: 2%;
+        width: 50%;
+    }
+
+    .logoFooter > img {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wrapper {
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .divCopyText {
+        font-size: 90%;
+        margin: 0 auto;
+        padding: 2%;
+        width: 50%;
+    }
+
+    .logoFooter > img {
+        width: 200px;
+    }
+
+    .fab {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    .fa-instagram {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-whatsapp {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-vk {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .divCopyText {
+        font-size: 100%;
+        margin: 0 auto;
+        padding: 2%;
+        width: 50%;
+    }
+
+    .logoFooter > img {
+        width: 220px;
+    }
+
+    .fab {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    .fa-instagram {
+        color: #f4f4f4;
+        font-size: 25px;
+        background: #FF7A00;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+
+    .fa-whatsapp {
+        color: #f4f4f4;
+        font-size: 25px;
+        background: #FF7A00;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+
+    .fa-vk {
+        color: #f4f4f4;
+        font-size: 25px;
+        background: #FF7A00;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .wrapper {
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .divCopyText {
+        font-size: 70%;
+        margin: 0 auto;
+        padding: 2%;
+        width: 50%;
+    }
+
+    .logoFooter > img {
+        width: 50px;
+    }
+
+    .fab {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    .fa-instagram {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-whatsapp {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-vk {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .wrapper {
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .divCopyText {
+        font-size: 70%;
+        margin: 0 auto;
+        padding: 2%;
+        width: 50%;
+    }
+
+    .logoFooter > img {
+        width: 150px;
+    }
+
+    .fab {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    .fa-instagram {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-whatsapp {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
+
+    .fa-vk {
+        color: #f4f4f4;
+        font-size: 20px;
+        background: #FF7A00;
+        line-height: 10px;
+        padding-top: 10px;
+    }
 }

@@ -33,6 +33,10 @@ $dataOrder = new Order(Connect::make(CONN));
 $categories = $dataCategory->getAllCategories();
 $productsLimit = $dataProd->getAllProductsLimit();
 $products = $dataProd->getAllProductsWithCountry();
+$text1 = $dataProd->getOneText(1);
+$text2 = $dataProd->getOneText(2);
+$text3 = $dataProd->getOneText(3);
+$text4 = $dataProd->getOneText(4);
 
 
 $dataValid = new Validator;

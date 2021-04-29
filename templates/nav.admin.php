@@ -27,7 +27,7 @@
                 <li><a href="/countries/index.php">Посмотреть всё</a></li>
             </ul>
         </li>
-        <li><a href="/countries/index.php">Заявки</a></li>
+        <li><a href="/orders/index.php">Заявки</a></li>
         <li><a href="/">Вернуться</a></li>
     </ul>
 </nav>

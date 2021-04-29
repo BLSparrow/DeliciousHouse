@@ -15,7 +15,7 @@
             <div>
                 <span class="bold">Состав: </span><?= $product->description ?>
             </div>
-            <div class="price"><span class="discount"><?= $product->price ?>&#x20bd;</span><br><?= $product->price-139 ?>&#x20bd;</div>
+            <div class="price"><span class="discount"><?= $product->price+157 ?>&#x20bd;</span><br><?= $product->price ?>&#x20bd;</div>
             <div><a title="Добавить в корзину" href="/baskets/index.php?id=<?= $product->id ?>"><img class="imgBasket" src="/startIMG/корзина.png"
                                                                                                      alt="img"></a></div>
         </div>

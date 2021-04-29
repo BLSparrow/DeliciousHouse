@@ -1,9 +1,6 @@
 <footer>
     <div class="logoFooter">
-        <ul>
-            <li><a class="sl2" href="/"><img class="nav_basketFooter" src="/startIMG/logo.png" alt="img"><span class="dh2">DeliciousHouse</span></a>
-            </li>
-        </ul>
+        <img src="/startIMG/logotype.png" alt="img">
     </div>
     <div class="divCopyText">
         <span style="font-family: BRUSH SCRIPT MT">&copy;2020-2021,</span> &#171;<span class="dh3"><a href="/templates/aboutStore.view.php">DeliciousHouse</a></span>&#187;
@@ -21,6 +18,5 @@
 </div>
 <script src="/JS/sidebar.js" type="text/javascript"></script>
 <script src="/JS/slider.js" type="text/javascript"></script>
-<script src="/JS/input.js" type="text/javascript"></script>
 </body>
 </html>

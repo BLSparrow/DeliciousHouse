@@ -8,7 +8,7 @@ use App\Models\ShowData; ?>
     <h1 style="text-align: center">Все товары</h1>
     <p class="<?= $_SESSION['alert'] ?? '' ?>"><?= $_SESSION['msg'] ?? '' ?></p>
     <div class="<?= $_SESSION['danger'] ?? '' ?>">
-        <div class="cards" style="margin-bottom: 10%">
+        <div class="cards" style="margin-bottom: 15%">
             <?php if ($products): ?>
                 <?php foreach ($products as $product): ?>
                     <div class="card">
@@ -27,7 +27,7 @@ use App\Models\ShowData; ?>
                                 <span class="bold">Состав:</span> <?= ShowData::showText($product->description) ?>
                                 <a class="btn" href="/products/show.php?id=<?= $product->id ?>">Подробнее</a>
                             </div>
-                            <div class="price"><span class="discount"><?= $product->price ?>&#x20bd;</span><br><?= $product->price-139 ?>&#x20bd;</div>
+                            <div class="price"><span class="discount"><?= $product->price+157 ?>&#x20bd;</span><br><?= $product->price ?>&#x20bd;</div>
                             <div><a href="/baskets/index.php?id=<?= $product->id ?>" title="Добавить в корзину"><img class="imgBasket"
                                                                              src="/startIMG/корзина.png"
                                                                              alt="img"></a></div>

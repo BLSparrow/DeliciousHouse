@@ -10,7 +10,7 @@ use App\Models\ShowData;
     <form action="#" method="get" enctype="multipart/form-data">
         <div class="sort">
             <label style="color: #f4f4f4" class="text" for="category_id">Сортировка по категориям</label><br>
-            <select class="t" name="filterCategory_id" id="category_id">
+            <select class="t2" name="filterCategory_id" id="category_id">
                 <option value="" disabled selected>Выберите категорию</option>
                 <?php foreach ($categories as $category): ?>
                     <option value="<?= $category->id ?>"><?= $category->name ?></option>

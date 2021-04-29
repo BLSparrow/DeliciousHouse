@@ -16,9 +16,10 @@ class Cart
 
     public function addCart($data)
     {
-        $stmt = $this->pdo->prepare("INSERT INTO baskets(product_id, quantity) 
-                                    VALUES (:product_id, :quantity)");
+        $stmt = $this->pdo->prepare("INSERT INTO baskets(order_id, product_id, quantity) 
+                                    VALUES (:order_id, :product_id, :quantity)");
         $stmt->execute([
+            'order_id' => $data['order_id'],
             'product_id' => $data['product_id'],
             'quantity' => $data['quantity'],
         ]);
@@ -26,6 +27,19 @@ class Cart
     }
 
 
+    public function addManyCarts($order_id, $data)
+    {
+        $stmt = $this->pdo->prepare("INSERT INTO baskets(order_id, product_id, quantity) 
+                                    VALUES (:order_id, :product_id, :quantity)");
+        foreach ($data as $k => $v) {
+            $stmt->execute([
+                'order_id' => $order_id,
+                'product_id' => $k,
+                'quantity' => $v,
+            ]);
+        }
+
+    }
 
     public function getFullCart($id)
     {
@@ -33,18 +47,4 @@ class Cart
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }
-
-
-    public function deleteFromCart($id)
-    {
-        $stmt = $this->pdo->prepare('DELETE FROM baskets WHERE id=:id');
-        $stmt->execute(['id' => $id]);
-    }
-
-    public function getAllProducts()
-    {
-        $stmt = $this->pdo->query('SELECT * FROM products');
-        return $stmt->fetchAll();
-    }
-
 }
