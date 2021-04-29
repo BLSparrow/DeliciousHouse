@@ -31,7 +31,7 @@ class Product
         $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
                             FROM products INNER JOIN countries ON products.country_id = countries.id 
                                 INNER JOIN categories ON products.category_id = categories.id
-                                WHERE category_id = 8 LIMIT 3');
+                                WHERE category_id = 4 LIMIT 3');
         return $stmt->fetchAll();
     }
 

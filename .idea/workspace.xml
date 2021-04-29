@@ -19,81 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="90% сайта">
-      <change afterPath="$PROJECT_DIR$/orders/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/orders.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/updateStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startIMG/logotype.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-bigben-tretyakov-2166.9XarEg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-fateev.OXst4g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-payusov.ESzOdA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/1-rakhmatullin.IqtwaQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-avtovaz-tretyakov-2166.2Owrfg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-badin-3134.vQ2cYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/2-kadyrov.81Jt_w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/3-badin-3134.HLNNaw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/3-kadyrov.9MGxkw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/4-badin-3134.e1j_cg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/5-badin-3134.2v2weg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/5-fateev.tS6ygQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-badin-3134.VpN3mQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-fateev.MeI2IQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9-topor.ZBOkGg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/9pr-fateev.L6CkhA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/bigben.i98yrQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/bigben3133.SQ9qEg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/db_delicioushouse.eGQwJA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf/storage_v2/_src_/schema/db_delicioushouse.eGQwJA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/dogs.tyIvAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droiddroid.gK2V4A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droidmn.HQ3Fcg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/droidwpwp.7tu61Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/ecohome.8EsSjg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/languageshoolistaev.h9itzw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/laravel.uWob_Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds-pashkov.ZoV87g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds-perevozchikova.wInfrA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mcdonalds.Z4PMug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/module4.SCcpSQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/questionnaire.ow1hww.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/sfabuser.f8MEaQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdf221e-4127-49eb-afdd-716082257cc5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41dc4c8d-5d58-4e49-940f-5b5d9f33f2bf/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+    <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="End">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/aboutStore.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/aboutStore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/promotions.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/promotions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/table-basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/table-basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baskets/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/insertCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/insertCart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baskets/questionnaire.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/questionnaire.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/products.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/products.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/updateProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/updateProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/aboutStore.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aboutStore.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/allProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/promotionsAndDiscounts.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/promotionsAndDiscounts.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/slider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +119,8 @@
       <workItem from="1619550447490" duration="2026000" />
       <workItem from="1619626419637" duration="3857000" />
       <workItem from="1619634080144" duration="5820000" />
-      <workItem from="1619708483628" duration="704000" />
+      <workItem from="1619708483628" duration="3151000" />
+      <workItem from="1619718722951" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="Акции и О магазине">
       <created>1618242032453</created>
@@ -214,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619117555149</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="End">
+      <created>1619709249635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619709249636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +180,8 @@
     <MESSAGE value="Авторизация 100%" />
     <MESSAGE value="Сортировка по товарам!" />
     <MESSAGE value="90% сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="90% сайта" />
+    <MESSAGE value="End" />
+    <option name="LAST_COMMIT_MESSAGE" value="End" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

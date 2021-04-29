@@ -362,7 +362,7 @@ li .sl:hover:not(.active) {
     }
 
     .nav_basket {
-        width: 5em;
+        width: 7em;
     }
 }
 
@@ -380,7 +380,7 @@ li .sl:hover:not(.active) {
     }
 
     .nav_basket {
-        width: 5em;
+        width: 7em;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -397,6 +397,6 @@ li .sl:hover:not(.active) {
     }
 
     .nav_basket {
-        width: 5em;
+        width: 7em;
     }
 }

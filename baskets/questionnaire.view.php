@@ -11,7 +11,7 @@
 
         <div>
             <label for="telephone">Телефон<br>
-                <input class="t" id="phone" type="tel" name="telephone" required pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                <input class="t" id="phone" type="tel" name="telephone" required pattern="8[0-9]{3}[0-9]{3}[0-9]{4}"
                        placeholder="8(___)___-____">
             </label>
         </div>
@@ -50,7 +50,7 @@
         данных
         <br><br>
 
-        <button style="display: none" class="subscribe" id="submit" type="submit" name="submit">Добавить</button>
+        <button style="display: none" class="subscribe" id="submit" type="submit" name="submit" onclick="return confirm('Заказ отправлен на обработку. Ожидайте звонка.');">Добавить</button>
         </form>
     </div>
 </div>
