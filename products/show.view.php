@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="text">
-            <div class="name"><h3><?= $product->name ?></h3></div>
+            <div class="name"><h3><?= $product->name ?> (<?= $product->nameCateg ?>)</h3></div>
             <div>
                 <span class="bold">Состав: </span><?= $product->description ?>
             </div>

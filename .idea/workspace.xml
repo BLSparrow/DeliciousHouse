@@ -20,15 +20,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a0925f-a417-478c-8d7d-9f5612a1e88d" name="Default Changelist" comment="End">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/15021426495988e0b9350dc8.21593861_1619723419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/anypics.ru-79623_1619723260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/chocolate-food-desert-204_1619723933.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/klubnika-agody-desert-piroznoe_1619721710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Джелато_1619721140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/Саку_1619723075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/желйный десет_1619724738.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/корзинка-с-малиной_1619721889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/корзинка-с-черникой_1619722062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/мороженое_асорти_1619721512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/низкокалор_1619724566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/печенье лемонное_1619723709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пончик-карсный бархат_1619722621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пончики-ассорти_1619722827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/пряник_шоколадный_1619723814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/руспончик_1619722265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/тройной шоколад_1619724945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/чизкКласик_1619724090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/шоколадное печенье_1619723589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/ягодный чизкейк_1619724209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/sortProductsAscDesc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/sortProductsCountries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/Джелато.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/желйный-десет.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/корзинка-с-малиной.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/корзинка-с-черникой.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/мороженое_асорти.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/низкокалор.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/печенье-лемонное.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/пончик-карсный бархат.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/пончики-ассорти.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/пряник_шоколадный.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/руспончик.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/тройной шоколад.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/чизкКласик.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/шоколадное-печенье.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startIMG/ягодный-чизкейк.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Country.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/navAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/navAdmin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/table-basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/table-basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/questionnaire.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/questionnaire.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_DeliciousHouse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_DeliciousHouse.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/sortProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/sortProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startIMG/anypics.ru-79623.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/startIMG/anypics.ru-79623.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/allProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/newProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +111,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/products" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,6 +125,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ВБ\ПО\OpenServer\OpenServer\domains\DeliciousHouse\products" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\CSS" />
       <recent name="C:\OpenServer\domains\DeliciousHouse\JS" />
     </key>
@@ -120,7 +164,12 @@
       <workItem from="1619626419637" duration="3857000" />
       <workItem from="1619634080144" duration="5820000" />
       <workItem from="1619708483628" duration="3151000" />
-      <workItem from="1619718722951" duration="2964000" />
+      <workItem from="1619718722951" duration="3037000" />
+      <workItem from="1619979793778" duration="837000" />
+      <workItem from="1619980952935" duration="2300000" />
+      <workItem from="1620059157527" duration="6056000" />
+      <workItem from="1620108000216" duration="2163000" />
+      <workItem from="1620192479577" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="Акции и О магазине">
       <created>1618242032453</created>
@@ -157,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619709249636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="End">
+      <created>1619725064234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619725064234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

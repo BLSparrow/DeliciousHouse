@@ -21,14 +21,33 @@ class Product
 
     public function getAllProductsWithCountry()
     {
-        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
-                            FROM products INNER JOIN countries ON products.country_id = countries.id');
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC, categories.name as nameCateg
+                            FROM products INNER JOIN countries ON products.country_id = countries.id
+                             INNER JOIN categories ON products.category_id = categories.id');
+        return $stmt->fetchAll();
+    }
+
+    public function getAllProductsWithCountryAsc()
+    {
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC, categories.name as nameCateg
+                            FROM products INNER JOIN countries ON products.country_id = countries.id
+                             INNER JOIN categories ON products.category_id = categories.id
+                             order by products.price asc ');
+        return $stmt->fetchAll();
+    }
+
+    public function getAllProductsWithCountryDesc()
+    {
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC, categories.name as nameCateg
+                            FROM products INNER JOIN countries ON products.country_id = countries.id
+                             INNER JOIN categories ON products.category_id = categories.id
+                             order by products.price desc ');
         return $stmt->fetchAll();
     }
 
     public function getAllProductsLimit()
     {
-        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC
+        $stmt = $this->pdo->query('SELECT products.*, countries.country, countries.image as imageC, categories.name as nameCateg
                             FROM products INNER JOIN countries ON products.country_id = countries.id 
                                 INNER JOIN categories ON products.category_id = categories.id
                                 WHERE category_id = 4 LIMIT 3');
@@ -43,7 +62,8 @@ class Product
 
     public function getOneProduct($id)
     {
-        $stmt = $this->pdo->prepare('SELECT * FROM products WHERE id=:id');
+        $stmt = $this->pdo->prepare('SELECT products.*, categories.name as nameCateg FROM products
+                                            INNER JOIN categories ON products.category_id = categories.id WHERE products.id=:id');
         $stmt->execute(['id' => $id]);
         return $stmt->fetch();
     }

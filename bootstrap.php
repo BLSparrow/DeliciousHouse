@@ -31,6 +31,7 @@ $dataCart = new Cart(Connect::make(CONN));
 $dataOrder = new Order(Connect::make(CONN));
 
 $categories = $dataCategory->getAllCategories();
+$countries = $dataCountry->getAllCountry();
 $productsLimit = $dataProd->getAllProductsLimit();
 $products = $dataProd->getAllProductsWithCountry();
 $text1 = $dataProd->getOneText(1);

@@ -210,3 +210,17 @@ tr:hover td {
 .dangerOff {
     display: flex;
 }
+@media screen and (max-width: 540px) {
+    .cardShow {
+        margin-top: 30px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.384);
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    }
+    .down {
+        margin-left: 40%;
+        margin-bottom: 35%;
+    }
+}

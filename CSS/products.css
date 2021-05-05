@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 0 10% 5% 10%;
+    margin: 0 10% 2% 10%;
 }
 .btn{
     color: #adadad;
@@ -17,7 +17,6 @@
     cursor: pointer;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.384);
-    /*border: 2px solid black;*/
     border-radius: 10px;
     box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
 }
@@ -116,7 +115,6 @@
 .cardShow {
     margin-top: 30px;
     width: 50%;
-    margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.384);
     border: 2px solid black;
     border-radius: 10px;
@@ -263,4 +261,14 @@
     border-left: 1px solid #ddd;
     font-size: 16px;
     font-weight: 600;
+}
+@media screen and (max-width: 540px) {
+    .cardShow {
+        margin-top: 30px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.384);
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    }
 }

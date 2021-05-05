@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="text">
-                <div class="name"><h3><?= $product->name ?></h3></div>
+                <div class="name"><h3><?= $product->name ?> (<?= $product->nameCateg ?>)</h3></div>
                 <div class="description">
                     <span class="bold">Состав:</span> <?= ShowData::showText($product->description) ?>
                     <a class="btn" href="/products/show.php?id=<?= $product->id ?>">Подробнее</a>
