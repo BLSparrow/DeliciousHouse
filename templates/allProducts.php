@@ -14,11 +14,10 @@ use App\Models\ShowData; ?>
                         <div class="imgBlock">
                             <img class="imgCards" src="/IMG/<?= $product->image ?>" alt="img">
                             <div class="countInfo">
-                                <div class="imgCountry"><img title="<?= $product->country ?>" style="width: 50px;"
-                                                             src="/IMG/<?= $product->imageC ?>" alt="img"></div>
-                                <div style="width: 50%;margin-bottom: 10px; float: left">Вес: <?= $product->weight ?>г.
+                                <div class="imgCountry"><img title="<?= $product->country ?>" style="width: 50px;" src="/IMG/<?= $product->imageC ?>" alt="img">&nbsp;&nbsp;</div>
+                                <div style="width: 50%;margin-bottom: 10px; float: left">&nbsp;&nbsp;Вес: <?= $product->weight ?>г.
                                 </div>
-                                <div style="width: 50%;float: left">Порций: <?= $product->numberOfServings ?></div>
+                                <div style="width: 50%;float: left">&nbsp;&nbsp;Порций: <?= $product->numberOfServings ?></div>
                             </div>
                         </div>
                         <div class="text">
